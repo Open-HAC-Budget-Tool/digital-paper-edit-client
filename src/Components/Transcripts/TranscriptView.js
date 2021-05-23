@@ -1,0 +1,136 @@
+import React, { Component, Suspense } from 'react';
+import path from 'path';
+// import './index.module.css';
+// import styles from './Transcript.module.css';
+// TODO: perhaps import TranscriptViewer on componentDidMount(?) to defer the load for later
+// https://facebook.github.io/create-react-app/docs/code-splitting
+// import TranscriptViewer from 'slate-transcript-editor';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import ApiWrapper from '../../ApiWrapper/index.js';
+import Skeleton from '@material-ui/lab/Skeleton';
+
+import items from '../../playlist.json'
+import Playlist from '../Playlist/Playlist.js'
+
+const TranscriptViewer = React.lazy(() => import('../lib/TranscriptViewer'));
+
+const projectId = null
+
+class TranscriptView extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      transcriptId: this.props.match.params.transcriptId,
+      transcriptJson: null,
+      url: null,
+      projectTitle: '',
+      transcriptTitle: '',
+      savedNotification: null,
+    };
+    this.transcriptViewerRef = React.createRef();
+  }
+
+  componentDidMount = () => {
+    this.updateTranscript()
+  }
+
+  componentDidUpdate = () => {
+    if (this.props.match.params.transcriptId === this.state.transcriptId) {
+      return
+    }
+    this.setState({
+      transcriptId: this.props.match.params.transcriptId,
+    })
+    this.updateTranscript(this.props.match.params.transcriptId)
+  }
+
+  updateTranscript = (transcriptId) => {
+    console.log('update Transcript')
+    ApiWrapper.getTranscript(projectId, transcriptId || this.state.transcriptId)
+    // TODO: add error handling
+    .then(json => {
+      console.log(json.transcriptTitle)
+      this.setState({
+        projectTitle: json.projectTitle,
+        transcriptTitle: json.transcriptTitle,
+        transcriptJson: json.transcript,
+        url: json.url,
+        clipName: json.clipName,
+      });
+    });
+  }
+
+  handleSave = autoSaveData => {
+    console.log('handleSave', autoSaveData);
+    const data = autoSaveData;
+    data.title = this.state.transcriptTitle;
+    data.transcriptTitle = this.state.transcriptTitle;
+    const queryParamsOptions = false;
+  }
+
+  render() {
+    // Workaround to change layout of TranscriptViewer for audio files.
+    // For now only handling limited numnber of file extension that have more of a certainty of being audio
+    // as opposed to more ambiguos extensions such as ogg or mp4 that could be either video or audio
+    // there might be better ways to determine if a clip is audio or video, especially node/"server side" but
+    // might also be more of a setup eg using ffprobe etc..
+    let mediaType = 'video';
+    if (
+      path.extname(this.state.clipName) === '.wav' ||
+      path.extname(this.state.clipName) === '.mp3' ||
+      path.extname(this.state.clipName) === '.m4a' ||
+      path.extname(this.state.clipName) === '.flac' ||
+      path.extname(this.state.clipName) === '.aiff'
+    ) {
+      mediaType = 'audio';
+    }
+    return (
+      <>
+        <Container
+          style={{
+            backgroundColor: '#eee',
+          }}
+          fluid
+        >
+          {this.state.transcriptJson !== null && (
+            <Suspense
+              fallback={
+                <Container fluid>
+                  <Row>
+                    <Col xs={12} sm={3} md={3} lg={3} xl={3}>
+                      <Skeleton variant="rect" width={'100%'} height={100} />
+                    </Col>
+                    <Col xs={12} sm={8} md={8} lg={8} xl={8}>
+                      <Skeleton variant="rect" width={'100%'} height={600} />
+                    </Col>
+                    <Col xs={12} sm={1} md={1} lg={1} xl={1}>
+                      <Skeleton variant="rect" width={'100%'} height={350} />
+                    </Col>
+                  </Row>
+                </Container>
+              }
+            >
+              <TranscriptViewer
+                transcriptData={this.state.transcriptJson} // Transcript json
+                mediaUrl={this.state.url} // string url to media file - audio or video
+                // showTitle={true}
+                isEditable={true} // se to true if you want to be able to edit the text
+                title={this.state.transcriptTitle}
+                mediaType={mediaType}
+                autoSaveContentType={'digitalpaperedit'}
+                // handleSaveEditor={this.handleSave}
+                // // handleAutoSaveChanges={ this.handleSave }
+              >
+                <Playlist items={items}/>
+              </TranscriptViewer>
+            </Suspense>
+          )}
+        </Container>
+      </>
+    );
+  }
+}
+
+export default TranscriptView;

@@ -5,34 +5,11 @@ import 'bootstrap-css-only/css/bootstrap.css';
 // https://www.npmjs.com/package/react-bootstrap-theme-switcher
 // import 'bootswatch/dist/litera/bootstrap.min.css';
 
-import CustomAlert from './Components/lib/CustomAlert';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Alert from 'react-bootstrap/Alert';
 import Skeleton from '@material-ui/lab/Skeleton';
-const Projects = lazy(() => import('./Components/Projects/index.js'));
-const Project = lazy(() => import('./Components/Projects/Project.js'));
-const TranscriptCorrect = lazy(() => import('./Components/Transcripts/TranscriptCorrect.js'));
-const PaperEdit = lazy(() => import('./Components/PaperEdits/PaperEdit'));
 
-// import Projects from './Components/Projects/index.js';
-// import Project from './Components/Projects/Project.js';
-// import TranscriptCorrect from './Components/Transcripts/TranscriptCorrect.js';
-// import PaperEdit from './Components/PaperEdits/PaperEdit';
-
-const demoWarningMessage = (
-  <>
-    <p>
-      {' '}
-      This is a demo version of the app{' '}
-      <Alert.Link href="https://github.com/pietrop/digital-paper-edit-client" target="_blank" rel="noopener noreferrer">
-        see project Github repository for more info
-      </Alert.Link>
-      .{' '}
-    </p>
-    <p>This is a read-only demo you can only play around with existing projects!</p>
-  </>
-);
+const TranscriptView = lazy(() => import('./Components/Transcripts/TranscriptView.js'));
 
 const NoMatch = () => {
   return <h1>There was an error loading the page you requested</h1>;
@@ -50,34 +27,9 @@ class App extends Component {
 
   // eslint-disable-next-line class-methods-use-this
   render() {
-    let envWarning = null;
-    let offlineWarning = null;
-
-    if (process.env.REACT_APP_NODE_ENV === 'demo') {
-      envWarning = (
-        <Container>
-          <CustomAlert variant={'warning'} heading={'Demo mode'} message={demoWarningMessage} />
-        </Container>
-      );
-    }
-
-    if (!navigator.onLine) {
-      offlineWarning = (
-        <>
-          <br />
-          <Container>
-            <CustomAlert variant={'warning'} heading={'Offline warning'} message={"You don't seem to be connected to the internet "} />
-          </Container>
-        </>
-      );
-    }
 
     return (
       <>
-        {envWarning}
-
-        {offlineWarning}
-
         <HashRouter>
           <Suspense
             fallback={
@@ -94,11 +46,7 @@ class App extends Component {
             }
           >
             <Switch>
-              <Route exact path="/" component={Projects} />
-              <Route exact path="/projects" component={Projects} />
-              <Route exact path="/projects/:projectId" component={Project} />
-              <Route exact path="/projects/:projectId/transcripts/:transcriptId/correct" component={TranscriptCorrect} />
-              <Route exact path="/projects/:projectId/paperedits/:papereditId" component={PaperEdit} />
+              <Route exact path="/transcripts/:transcriptId" component={TranscriptView} />
               <Route component={NoMatch} />
             </Switch>
           </Suspense>

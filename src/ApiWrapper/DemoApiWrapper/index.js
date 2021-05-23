@@ -1,3 +1,5 @@
+import items from '../../playlist.json'
+
 class DemoApiWrapper {
   /**
    * Projects
@@ -76,13 +78,14 @@ class DemoApiWrapper {
   async getTranscript(projectId, transcriptId, queryParamsOptions) {
     const response = await fetch('db/transcripts.json');
     const transcripts = await response.json();
+
+    const playlistItem = items.find((item) => item.slug === transcriptId)
+
     const transcript = transcripts.find((transcript) => {
-      return transcript._id === transcriptId;
+      return transcript._id === playlistItem.id;
     });
 
     transcript.id = transcript._id;
-    const resProject = await this.getProject(projectId);
-    transcript.projectTitle = resProject.project.title;
     transcript.transcriptTitle = transcript.title;
 
     return transcript;

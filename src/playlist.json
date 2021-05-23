@@ -1,0 +1,271 @@
+[
+    {
+      "title": "2021-05-12, 01: Special BFA: 5 Year Forecast & Overview",
+      "slug": "forecast",
+      "id": "f2dcae685b4244f89133c58885cfd0f4",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05132021-502.360-special.mp4",
+      "clipName": "05132021-502.360-special.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05132021-502.f2dcae685b4244f89133c58885cfd0f4.wav"
+    },
+    {
+      "title": "2021-05-12, 02: Finance",
+      "slug": "finance",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/VI_FIN.pdf",
+      "id": "a65b64faaa5747228c7c81a7d3ebab6c",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05132021-504.360-finance.mp4",
+      "clipName": "05132021-504.360-finance.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05132021-504.a65b64faaa5747228c7c81a7d3ebab6c.wav"
+    },
+    {
+      "title": "2021-05-17, 01: Mayor's Office",
+      "slug": "mayors-office",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/mayor.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/VI_MAY.pdf",
+      "id": "bff10b7a90f848568cc5d93e220f19e6",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1247.360-mayors-office.mp4",
+      "clipName": "05172021-1247.360-mayors-office.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1247.bff10b7a90f848568cc5d93e220f19e6.wav"
+    },
+    {
+      "title": "2021-05-17, 02: Housing",
+      "slug": "housing",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/housing.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/V_HCD.pdf",
+      "id": "fca1fad7f74442e58b5168e621cea806",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1262.360-housing.mp4",
+      "clipName": "05172021-1262.360-housing.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1262.fca1fad7f74442e58b5168e621cea806.wav"
+    },
+    {
+      "title": "2021-05-17, 03: Legal",
+      "slug": "legal",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/legal.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/VI_LGL.pdf",
+      "id": "e095d335fc394161a2071e177314638d",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1249.360-legal.mp4",
+      "clipName": "05172021-1249.360-legal.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1249.e095d335fc394161a2071e177314638d.wav"
+    },
+    {
+      "title": "2021-05-17, 04: Human Resources",
+      "slug": "human-resources",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/hr.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/VI_HR.pdf",
+      "id": "0e43a1822b6448f19830a4c082ea3d2c",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1253.360-HR.mp4",
+      "clipName": "05172021-1253.360-HR.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1253.0e43a1822b6448f19830a4c082ea3d2c.wav"
+    },
+    {
+      "title": "2021-05-17, 05: Municipal Courts",
+      "slug": "municipal-courts",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/courts.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/III_MCD.pdf",
+      "id": "a33e9ab6e3bb4e8fa682e3ddb66eca22",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05182021-1674.360-municipal-courts.mp4",
+      "clipName": "05182021-1674.360-municipal-courts.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05182021-1674.a33e9ab6e3bb4e8fa682e3ddb66eca22.wav"
+    },
+    {
+      "title": "2021-05-17, 06: Library",
+      "slug": "library",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/library.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/V_LIB.pdf",
+      "id": "b07b171c711847e999f14f7546ad07f3",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1264.360-library.mp4",
+      "clipName": "05172021-1264.360-library.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1264.b07b171c711847e999f14f7546ad07f3.wav"
+    },
+    {
+      "title": "2021-05-17, 07: Department of Neighborhoods",
+      "slug": "dept-of-neighborhoods",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/don.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/V_DON.pdf",
+      "id": "4409ebe825a84d5b8afd50c15941c252",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1268.360-dept-of-neighborhoods.mp4",
+      "clipName": "05172021-1268.360-dept-of-neighborhoods.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1268.4409ebe825a84d5b8afd50c15941c252.wav"
+    },
+    {
+      "title": "2021-05-17, 08: Information Technology",
+      "slug": "info-tech",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/hits.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/VI_HITS.pdf",
+      "id": "3ccc6ebc4c2745fb99545ed2f52eb3f3",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1288.360-IT.mp4",
+      "clipName": "05172021-1288.360-IT.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05172021-1288.3ccc6ebc4c2745fb99545ed2f52eb3f3.wav"
+    },
+    {
+      "title": "2021-05-18, 01: Police",
+      "slug": "police",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/police.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/III_HPD.pdf",
+      "id": "8a9f8a22bf47456aa3742c6848dc1cd7",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05182021-1630.360-police.mp4",
+      "clipName": "05182021-1630.360-police.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05182021-1630.8a9f8a22bf47456aa3742c6848dc1cd7.wav"
+    },
+    {
+      "title": "2021-05-18, 02: Fire",
+      "slug": "fire",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/fire.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/III_HFD.pdf",
+      "id": "471f51c6afd041d9bb91da2c3909724c",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05182021-1632.360-fire.mp4",
+      "clipName": "05182021-1632.360-fire.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05182021-1632.471f51c6afd041d9bb91da2c3909724c.wav"
+    },
+    {
+      "title": "2021-05-18, 03: Parks & Recreation",
+      "slug": "parks",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/parks.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/V_PRK.pdf",
+      "id": "a34a5bd2476946899895cdd9ae9ec354",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-552.360-parks-and-rec.mp4",
+      "clipName": "05202021-552.360-parks-and-rec.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-552.a34a5bd2476946899895cdd9ae9ec354.wav"
+    },
+    {
+      "title": "2021-05-18, 04: General Services",
+      "slug": "general-services",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/gsd.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/IV_GSD.pdf",
+      "id": "e62c7c754aeb42f5bf323d6237d615df",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-551.360-general-services.mp4",
+      "clipName": "05202021-551.360-general-services.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-551.e62c7c754aeb42f5bf323d6237d615df.wav"
+    },
+    {
+      "title": "2021-05-19, 01: Public Works",
+      "slug": "public-works",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/hpw.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/IV_HPW.pdf",      
+      "id": "eee77c8639524db99196265c8fcd2735",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-507.360-public-works.mp4",
+      "clipName": "05202021-507.360-public-works.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-507.eee77c8639524db99196265c8fcd2735.wav"
+    },
+    {
+      "title": "2021-05-19, 02: Health",
+      "slug": "health",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/health.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/V_HHD.pdf",      
+      "id": "fc01101f2cc249b79c2ffa2653cca77d",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05212021-511.360-health.mp4",
+      "clipName": "05212021-511.360-health.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05212021-511.fc01101f2cc249b79c2ffa2653cca77d.wav"
+    },
+    {
+      "title": "2021-05-19, 03: Solid Waste",
+      "slug": "solid-waste",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/swd.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/IV_SWM.pdf",
+      "id": "d36ad2eb6c0b4443ae9847fbdd0245bf",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-511.360-solid-waste.mp4",
+      "clipName": "05202021-511.360-solid-waste.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-511.d36ad2eb6c0b4443ae9847fbdd0245bf.wav"
+    },
+    {
+      "title": "2021-05-20, 01: Special BFA: Controller's Trends Report",
+      "slug": "trends",
+      "id": "d8346744d0e64bb880f2a5330fc0742d",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05212021-721.360-trends.mp4",
+      "clipName": "05212021-721.360-trends.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05212021-721.d8346744d0e64bb880f2a5330fc0742d.wav"
+    },
+    {
+      "title": "2021-05-20, 02: Controller's Office",
+      "slug": "controllers",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/controller.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/VI_CTR.pdf",
+      "id": "377d84085c834efebff42fa82881226c",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05212021-543.360-controllers.mp4",
+      "clipName": "05212021-543.360-controllers.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05212021-543.377d84085c834efebff42fa82881226c.wav"
+    },
+    {
+      "title": "2021-05-20, 03: Planning & Development",
+      "slug": "planning",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/planning.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/IV_PD.pdf",
+      "id": "c91c4b0e4c094b0ba2d2a59c700059e3",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-772.360-planning.mp4",
+      "clipName": "05202021-772.360-planning.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-772.c91c4b0e4c094b0ba2d2a59c700059e3.wav"
+    },
+    {
+      "title": "2021-05-20, 04: Office of Business Opportunity",
+      "slug": "obo",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/obo.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/VI_OBO.pdf",
+      "id": "4e43d8798ec54f62bf28f6a6230e4756",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-774.360-OBO.mp4",
+      "clipName": "05202021-774.360-OBO.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-774.4e43d8798ec54f62bf28f6a6230e4756.wav"
+    },
+    {
+      "title": "2021-05-20, 05: Fleet",
+      "slug": "fleet",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/fleet.pdf",
+      "id": "b17a190147bd4a55ac067362a2f98030",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-776.360-fleet.mp4",
+      "clipName": "05202021-776.360-fleet.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-776.b17a190147bd4a55ac067362a2f98030.wav"
+    },
+    {
+      "title": "2021-05-20, 06: Adminstrative & Regulatory Affairs",
+      "slug": "ara",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/ara.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/VI_ARA.pdf",
+      "id": "2afa7834854d427fbd1040a7457573cf",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-778.360-ara.mp4",
+      "clipName": "05202021-778.360-ara.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-778.2afa7834854d427fbd1040a7457573cf.wav"
+    },
+    {
+      "title": "2021-05-20, 07: City Council",
+      "slug": "city-council",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/council.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/VI_CNL.pdf",
+      "id": "6f9fafe093a7414da593bc74fa6177ba",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-780.360-city-council.mp4",
+      "clipName": "05202021-780.360-city-council.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-780.6f9fafe093a7414da593bc74fa6177ba.wav"
+    },
+    {
+      "title": "2021-05-20, 08: Aviation",
+      "slug": "aviation",
+      "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/has.pdf",
+      "proposal": "https://www.houstontx.gov/budget/22budprop/IX_HAS.pdf",
+      "id": "7860f2403e9b405895982c64e7a38a4f",
+      "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-782.360-aviation.mp4",
+      "clipName": "05202021-782.360-aviation.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-782.7860f2403e9b405895982c64e7a38a4f.wav"
+    }
+  ]
