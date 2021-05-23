@@ -89,7 +89,10 @@ class TranscriptView extends Component {
           <Navbar.Brand href="#home">#HouBudget FY22 Workshops Watcher</Navbar.Brand>
           <Nav className="mr-auto"></Nav>
           <Nav>
-            <small className="text-light">A read-only fork of <a href="https://www.autoedit.io/" target="_blank">AutoEdit</a></small>
+            <small className="text-light text-right">
+              Transcripts <a href="https://www.assemblyai.com/" target="_blank">auto-generated</a>, then crowd-sourced.  <a href="https://bit.ly/datatodream-budget-transcripts" target="_blank">Submit corrections here</a>.<br/>
+              Code is a fork of <a href="https://www.autoedit.io/" target="_blank">AutoEdit</a>.
+            </small>
           </Nav>
         </Navbar>
         <Container
