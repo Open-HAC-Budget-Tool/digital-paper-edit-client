@@ -111,6 +111,7 @@ function SlateTranscriptEditor(props) {
     // Update the document title using the browser API
     if (mediaRef && mediaRef.current) {
       // setDuration(mediaRef.current.duration);
+      mediaRef.current.playbackRate = playbackRate
       mediaRef.current.addEventListener('timeupdate', handleTimeUpdated);
       if (query.get('ts')) {
         mediaRef.current.currentTime = query.get('ts')

@@ -4,10 +4,11 @@ import 'bootstrap-css-only/css/bootstrap.css';
 // TODO: Note: Replace ^[theme]^ (examples: materia, darkly, slate, cosmo, spacelab, and superhero. See https://bootswatch.com for current theme names.)
 // https://www.npmjs.com/package/react-bootstrap-theme-switcher
 // import 'bootswatch/dist/litera/bootstrap.min.css';
-
+import withTracker from './Components/lib/withTracker';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Skeleton from '@material-ui/lab/Skeleton';
+import ReactGA from 'react-ga';
 
 const TranscriptView = lazy(() => import('./Components/Transcripts/TranscriptView.js'));
 
@@ -21,7 +22,8 @@ const NoMatch = () => {
 class App extends Component {
   constructor(props) {
     super(props);
-
+    ReactGA.initialize(process.env.REACT_APP_GA);
+    ReactGA.pageview(window.location.pathname + window.location.search);
     this.state = {
       transcriptJson: null,
     };
