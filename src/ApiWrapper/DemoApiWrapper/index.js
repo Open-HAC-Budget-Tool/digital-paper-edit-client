@@ -87,6 +87,8 @@ class DemoApiWrapper {
 
     transcript.id = transcript._id;
     transcript.transcriptTitle = transcript.title;
+    transcript.presentation = playlistItem.presentation;
+    transcript.proposal = playlistItem.proposal;
 
     return transcript;
   }

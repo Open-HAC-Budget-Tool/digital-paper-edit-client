@@ -9,6 +9,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import SaveAltIcon from '@material-ui/icons/SaveAlt';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import subtitlesExportOptionsList from 'slate-transcript-editor/util/export-adapters/subtitles-generator/list.js';
+import InfoOutlined from '@material-ui/icons/InfoOutlined';
 
 function SideBtns({
   handleExport,
@@ -243,7 +244,11 @@ function SideBtns({
           </MenuItem>
         </Menu>
       </div>
-
+      <Tooltip title={' Double click on a word to jump to the corresponding point in the media'}>
+        <Button color="primary">
+          <InfoOutlined color="primary" />
+        </Button>
+      </Tooltip>
       {optionalBtns}
     </Grid>
   );

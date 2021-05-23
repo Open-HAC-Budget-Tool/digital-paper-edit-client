@@ -16,6 +16,11 @@ import Collapse from '@material-ui/core/Collapse';
 import Tooltip from '@material-ui/core/Tooltip';
 import debounce from 'lodash/debounce';
 import { createEditor, Editor, Transforms } from 'slate';
+
+import {
+useLocation
+} from "react-router-dom";
+
 // https://docs.slatejs.org/walkthroughs/01-installing-slate
 // Import the Slate components and React plugin.
 import { Slate, Editable, withReact, ReactEditor } from 'slate-react';
@@ -42,7 +47,9 @@ const REPLACE_WHOLE_TEXT_INSTRUCTION =
   'Replace whole text. \n\nAdvanced feature, if you already have an accurate transcription for the whole text, and you want to restore timecodes for it, you can use this to replace the text in this transcript. \n\nFor now this is an experimental feature. \n\nIt expects plain text, with paragraph breaks as new line breaks but no speakers.';
 
 const mediaRef = React.createRef();
-
+function useQuery() {
+  return new URLSearchParams(useLocation().search);
+}
 const pauseWhileTypeing = (current) => {
   current.play();
 };
@@ -67,7 +74,8 @@ function SlateTranscriptEditor(props) {
   // last save or alignment
   const [isContentModified, setIsContentIsModified] = useState(false);
   const [isContentSaved, setIsContentSaved] = useState(true);
-
+  let query = useQuery();
+  
   useEffect(() => {
     if (isProcessing) {
       document.body.style.cursor = 'wait';
@@ -100,6 +108,9 @@ function SlateTranscriptEditor(props) {
     if (mediaRef && mediaRef.current) {
       // setDuration(mediaRef.current.duration);
       mediaRef.current.addEventListener('timeupdate', handleTimeUpdated);
+      if (query.get('ts')) {
+        mediaRef.current.currentTime = query.get('ts')
+      }
     }
     return function cleanup() {
       // removeEventListener
@@ -136,6 +147,7 @@ function SlateTranscriptEditor(props) {
   };
 
   const handleTimeUpdated = (e) => {
+    console.log('handle time updated', e.target.currentTime)
     setCurrentTime(e.target.currentTime);
     // TODO: setting duration here as a workaround
     setDuration(mediaRef.current.duration);
@@ -337,22 +349,6 @@ function SlateTranscriptEditor(props) {
             }
           }
         }
-      }
-    }
-  };
-
-  const handleReplaceText = () => {
-    const newText = prompt(`Paste the text to replace here.\n\n${REPLACE_WHOLE_TEXT_INSTRUCTION}`);
-    if (newText) {
-      const newValue = plainTextalignToSlateJs(props.transcriptData, newText, value);
-      setValue(newValue);
-
-      // TODO: consider adding some kind of word count here?
-      if (props.handleAnalyticsEvents) {
-        // handles if click cancel and doesn't set speaker name
-        props.handleAnalyticsEvents('ste_handle_replace_text', {
-          fn: 'handleReplaceText',
-        });
       }
     }
   };

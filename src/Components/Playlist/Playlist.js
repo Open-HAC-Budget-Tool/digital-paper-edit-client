@@ -21,7 +21,7 @@ class Playlist extends React.Component {
   }
 
   showLinkPath = id => {
-    return `/transcripts/${id}`
+    return `/fy22/${id}`
   };
 
   render() {
@@ -38,6 +38,8 @@ class Playlist extends React.Component {
                 id={ item.id }
                 slug={ item.slug }
                 title={ item.title }
+                presentation={ item.presentation }
+                proposal={ item.proposal }
                 description={ item.description }
                 showLinkPath={ this.showLinkPath }
               />
