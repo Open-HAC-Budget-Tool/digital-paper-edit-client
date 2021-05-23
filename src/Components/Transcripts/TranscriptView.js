@@ -101,8 +101,7 @@ class TranscriptView extends Component {
           }}
           fluid
         >
-          {this.state.transcriptJson !== null && (
-            <Suspense
+          {<Suspense
               fallback={
                 <Container fluid>
                   <Row>
@@ -123,7 +122,7 @@ class TranscriptView extends Component {
                 transcriptData={this.state.transcriptJson} // Transcript json
                 mediaUrl={this.state.url} // string url to media file - audio or video
                 // showTitle={true}
-                isEditable={true} // se to true if you want to be able to edit the text
+                isEditable={false} // se to true if you want to be able to edit the text
                 title={this.state.transcriptTitle}
                 mediaType={mediaType}
                 autoSaveContentType={'digitalpaperedit'}
@@ -131,22 +130,7 @@ class TranscriptView extends Component {
                 <Playlist items={items}/>
               </TranscriptViewer>
             </Suspense>
-          ) || (
-            <Container fluid>
-            <Row>
-              <Col xs={12} sm={4} md={4} lg={4} xl={4}>
-                <Playlist items={items}/>
-                <Skeleton variant="rect" width={'100%'} height={100} />
-              </Col>
-              <Col xs={12} sm={7} md={7} lg={7} xl={7}>
-                <Skeleton variant="rect" width={'100%'} height={600} />
-              </Col>
-              <Col xs={12} sm={1} md={1} lg={1} xl={1}>
-                <Skeleton variant="rect" width={'100%'} height={350} />
-              </Col>
-            </Row>
-          </Container>
-          )}
+          }
         </Container>
       </>
     );

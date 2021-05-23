@@ -77,8 +77,8 @@ function SlateTranscriptEditor(props) {
   // last save or alignment
   const [isContentModified, setIsContentIsModified] = useState(false);
   const [isContentSaved, setIsContentSaved] = useState(true);
+  const [isEditable, setIsEditable] = useState(props.isEditable, []);
   let query = useQuery();
-  let location = useLocation();
   
   useEffect(() => {
     if (isProcessing) {
@@ -363,6 +363,10 @@ function SlateTranscriptEditor(props) {
     }
   };
 
+  const handleSetEditable = () => {
+    setIsEditable(!isEditable)
+  }
+
   // TODO: refacto this function, to be cleaner and easier to follow.
   const handleRestoreTimecodes = async (inlineTimecodes = false) => {
     // if nothing as changed and you don't need to modify the data
@@ -449,6 +453,79 @@ function SlateTranscriptEditor(props) {
     }
   };
 
+  // const debounced_version = throttle(handleRestoreTimecodes, 3000, { leading: false, trailing: true });
+  // TODO: revisit logic for
+  // - splitting paragraph via enter key
+  // - merging paragraph via delete
+  // - merging paragraphs via deleting across paragraphs
+  const handleOnKeyDown = async (event) => {
+    if (!isEditable) {
+      event.preventDefault();
+      return
+    }
+
+    setIsContentIsModified(true);
+    setIsContentSaved(false);
+    //  ArrowRight ArrowLeft ArrowUp ArrowUp
+    if (event.key === 'Enter') {
+      // intercept Enter, and handle timecodes when splitting a paragraph
+      event.preventDefault();
+      // console.info('For now disabling enter key to split a paragraph, while figuring out the aligment issue');
+      // handleSetPauseWhileTyping();
+      // TODO: Edge case, hit enters after having typed some other words?
+      const isSuccess = SlateHelpers.handleSplitParagraph(editor);
+      if (props.handleAnalyticsEvents) {
+        // handles if click cancel and doesn't set speaker name
+        props.handleAnalyticsEvents('ste_handle_split_paragraph', {
+          fn: 'handleSplitParagraph',
+          isSuccess,
+        });
+      }
+      if (isSuccess) {
+        // as part of splitting paragraphs there's an alignement step
+        // so content is not counted as modified
+        setIsContentIsModified(false);
+      }
+    }
+    if (event.key === 'Backspace') {
+      const isSuccess = SlateHelpers.handleDeleteInParagraph({ editor, event });
+      // Commenting that out for now, as it might get called too often
+      // if (props.handleAnalyticsEvents) {
+      //   // handles if click cancel and doesn't set speaker name
+      //   props.handleAnalyticsEvents('ste_handle_delete_paragraph', {
+      //     fn: 'handleDeleteInParagraph',
+      //     isSuccess,
+      //   });
+      // }
+      if (isSuccess) {
+        // as part of splitting paragraphs there's an alignement step
+        // so content is not counted as modified
+        setIsContentIsModified(false);
+      }
+    }
+    // if (event.key.length == 1 && ((event.keyCode >= 65 && event.keyCode <= 90) || (event.keyCode >= 49 && event.keyCode <= 57))) {
+    //   const alignedSlateData = await debouncedSave(value);
+    //   setValue(alignedSlateData);
+    //   setIsContentIsModified(false);
+    // }
+
+    if (isPauseWhiletyping) {
+      // logic for pause while typing
+      // https://schier.co/blog/wait-for-user-to-stop-typing-using-javascript
+      // TODO: currently eve the video was paused, and pause while typing is on,
+      // it will play it when stopped typing. so added btn to turn feature on off.
+      // and disabled as default.
+      // also pause while typing might introduce performance issues on longer transcripts
+      // if on every keystroke it's creating and destroing a timer.
+      // should find a more efficient way to "debounce" or "throttle" this functionality
+      if (mediaRef && mediaRef.current && !mediaRef.current.paused) {
+        mediaRef.current.pause();
+        debouncePauseWhileTyping(mediaRef.current);
+      }
+    }
+    // auto align when not typing
+  };
+
   return (
     <div style={{ paddingTop: '1em' }}>
       <CssBaseline />
@@ -501,6 +578,8 @@ function SlateTranscriptEditor(props) {
         <Grid container direction="row" justify="space-around" alignItems="flex-start" spacing={2}>
           <Grid item xs={12} sm={4} md={4} lg={4} xl={4}>
             <Grid container direction="column" justify="space-between" alignItems="flex-start">
+            {props.mediaUrl && (
+              <>
               <Grid item style={{ backgroundColor: 'black' }}>
                 <video ref={mediaRef} src={props.mediaUrl} width={'100%'} height="auto" controls playsInline></video>
               </Grid>
@@ -576,6 +655,7 @@ function SlateTranscriptEditor(props) {
                   })}
                 </Collapse>
               </Grid>
+              </>)}
               <Grid item>{props.children}</Grid>
             </Grid>
           </Grid>
@@ -597,9 +677,11 @@ function SlateTranscriptEditor(props) {
                       }}
                     >
                       <Editable
-                        readOnly={typeof props.isEditable === 'boolean' ? !props.isEditable : false}
+                        // readOnly={typeof isEditable === 'boolean' ? !isEditable : false}
+                        readOnly={false}
                         renderElement={renderElement}
                         renderLeaf={renderLeaf}
+                        onKeyDown={handleOnKeyDown}
                       />
                     </Slate>
                   </section>
@@ -607,7 +689,7 @@ function SlateTranscriptEditor(props) {
               </>
             ) : (
               <section className="text-center">
-                <i className="text-center">Loading...</i>
+                <i className="text-center">Pick a workshop to get started...</i>
               </section>
             )}
           </Grid>
@@ -615,6 +697,8 @@ function SlateTranscriptEditor(props) {
           <Grid item xs={12} sm={1} md={1} lg={1} xl={1}>
             <SideBtns
               handleExport={handleExport}
+              isEditable={isEditable}
+              handleSetEditable={handleSetEditable}
               isProcessing={isProcessing}
               isContentModified={isContentModified}
               isContentSaved={isContentSaved}
@@ -631,8 +715,8 @@ function SlateTranscriptEditor(props) {
 export default SlateTranscriptEditor;
 
 SlateTranscriptEditor.propTypes = {
-  transcriptData: PropTypes.object.isRequired,
-  mediaUrl: PropTypes.string.isRequired,
+  transcriptData: PropTypes.object,
+  mediaUrl: PropTypes.string,
   handleSaveEditor: PropTypes.func,
   handleAutoSaveChanges: PropTypes.func,
   autoSaveContentType: PropTypes.string,

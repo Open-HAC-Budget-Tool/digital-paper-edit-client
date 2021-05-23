@@ -10,10 +10,14 @@ import SaveAltIcon from '@material-ui/icons/SaveAlt';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import subtitlesExportOptionsList from 'slate-transcript-editor/util/export-adapters/subtitles-generator/list.js';
 import InfoOutlined from '@material-ui/icons/InfoOutlined';
+import CreateOutlinedIcon from '@material-ui/icons/CreateOutlined';
 
 function SideBtns({
   handleExport,
   optionalBtns,
+  handleSetEditable,
+  isEditable,
+  isProcessing,
 }) {
   const [anchorMenuEl, setAnchorMenuEl] = useState(null);
 
@@ -244,6 +248,13 @@ function SideBtns({
           </MenuItem>
         </Menu>
       </div>
+      <Tooltip
+        title={` Turn ${isEditable ? 'off' : 'on'} edit mode.  You can edit before exporting the transcript.`}
+      >
+        <Button disabled={isProcessing} onClick={handleSetEditable}>
+          <CreateOutlinedIcon color="primary" color={isEditable ? 'secondary' : 'primary'} />
+        </Button>
+      </Tooltip>
       <Tooltip title={' Double click on a word to jump to the corresponding point in the media'}>
         <Button color="primary">
           <InfoOutlined color="primary" />
