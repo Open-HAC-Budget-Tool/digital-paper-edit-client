@@ -80,6 +80,9 @@ class DemoApiWrapper {
     const transcripts = await response.json();
 
     const playlistItem = items.find((item) => item.slug === transcriptId)
+    if (!playlistItem) {
+      return { status: 'Not Found' }
+    }
 
     const transcript = transcripts.find((transcript) => {
       return transcript._id === playlistItem.id;

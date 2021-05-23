@@ -689,7 +689,7 @@ function SlateTranscriptEditor(props) {
               </>
             ) : (
               <section className="text-center">
-                <i className="text-center">Pick a workshop to get started...</i>
+                {(props.status === 'Loading' && <i className="text-center">Loading...</i>) || <i className="text-center">Pick a workshop to get started...</i>}
               </section>
             )}
           </Grid>

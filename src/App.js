@@ -1,5 +1,5 @@
 import React, { Component, Suspense, lazy } from 'react';
-import { Switch, Route, HashRouter } from 'react-router-dom';
+import { Switch, Route, HashRouter, Link } from 'react-router-dom';
 import 'bootstrap-css-only/css/bootstrap.css';
 // TODO: Note: Replace ^[theme]^ (examples: materia, darkly, slate, cosmo, spacelab, and superhero. See https://bootswatch.com for current theme names.)
 // https://www.npmjs.com/package/react-bootstrap-theme-switcher
@@ -12,7 +12,10 @@ import Skeleton from '@material-ui/lab/Skeleton';
 const TranscriptView = lazy(() => import('./Components/Transcripts/TranscriptView.js'));
 
 const NoMatch = () => {
-  return <h1>There was an error loading the page you requested</h1>;
+  return <>
+    <h1>There was an error loading the page you requested.</h1>
+    <p><Link to="/">Return to Budget Watcher</Link>.</p>
+  </>;
 };
 
 class App extends Component {

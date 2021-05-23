@@ -12,6 +12,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import ApiWrapper from '../../ApiWrapper/index.js';
 import Skeleton from '@material-ui/lab/Skeleton';
+import { Redirect } from 'react-router-dom';
 
 import items from '../../playlist.json'
 import Playlist from '../Playlist/Playlist.js'
@@ -30,6 +31,7 @@ class TranscriptView extends Component {
       projectTitle: '',
       transcriptTitle: '',
       savedNotification: null,
+      status: null,
     };
     this.transcriptViewerRef = React.createRef();
   }
@@ -49,20 +51,34 @@ class TranscriptView extends Component {
   }
 
   updateTranscript = (transcriptId) => {
-    console.log('update Transcript')
+
     if (!(transcriptId || this.state.transcriptId)) {
       return
     }
+    this.setState({
+      status: 'Loading',
+    })
     ApiWrapper.getTranscript(projectId, transcriptId || this.state.transcriptId)
     // TODO: add error handling
     .then(json => {
-      console.log(json.transcriptTitle)
+      if (json.status && json.status === 'Not Found') {
+        this.setState({
+          status: 'Not Found',
+          projectTitle: '',
+          transcriptTitle: '',
+          transcriptJson: null,
+          url: null,
+          clipName: null,
+        })
+      }
+
       this.setState({
         projectTitle: json.projectTitle,
         transcriptTitle: json.transcriptTitle,
         transcriptJson: json.transcript,
         url: json.url,
         clipName: json.clipName,
+        status: 'Found',
       });
     });
   }
@@ -126,6 +142,7 @@ class TranscriptView extends Component {
                 title={this.state.transcriptTitle}
                 mediaType={mediaType}
                 autoSaveContentType={'digitalpaperedit'}
+                status={this.state.status}
               >
                 <Playlist items={items}/>
               </TranscriptViewer>
