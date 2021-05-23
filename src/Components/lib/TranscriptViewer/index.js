@@ -120,7 +120,7 @@ function SlateTranscriptEditor(props) {
       // removeEventListener
       mediaRef.current.removeEventListener('timeupdate', handleTimeUpdated);
     };
-  }, []);
+  }, [props.mediaUrl]);
 
   useEffect(() => {}, [currentTime]);
 
@@ -157,7 +157,6 @@ function SlateTranscriptEditor(props) {
   }
 
   const handleTimeUpdated = (e) => {
-    console.log('handle time updated', e.target.currentTime)
     setCurrentTime(e.target.currentTime);
     // TODO: setting duration here as a workaround
     setDuration(mediaRef.current.duration);
