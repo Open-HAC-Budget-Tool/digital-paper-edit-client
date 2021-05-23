@@ -22,7 +22,9 @@ const NoMatch = () => {
 class App extends Component {
   constructor(props) {
     super(props);
-    ReactGA.initialize(process.env.REACT_APP_GA);
+    ReactGA.initialize(process.env.REACT_APP_GA, {gaOptions: {
+      cookie_flags: 'SameSite=None;Secure',
+    }});
     ReactGA.pageview(window.location.pathname + window.location.search);
     this.state = {
       transcriptJson: null,
