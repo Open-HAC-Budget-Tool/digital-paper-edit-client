@@ -9,16 +9,19 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
+import BFormControl from 'react-bootstrap/FormControl';
+import InputGroup from 'react-bootstrap/InputGroup';
 import Select from '@material-ui/core/Select';
 import Link from '@material-ui/core/Link';
 import Replay10Icon from '@material-ui/icons/Replay10';
 import Collapse from '@material-ui/core/Collapse';
 import Tooltip from '@material-ui/core/Tooltip';
 import debounce from 'lodash/debounce';
+import throttle from 'lodash/throttle';
 import { createEditor, Editor, Transforms } from 'slate';
 
 import {
-useLocation
+useLocation, useHistory
 } from "react-router-dom";
 
 // https://docs.slatejs.org/walkthroughs/01-installing-slate
@@ -75,6 +78,7 @@ function SlateTranscriptEditor(props) {
   const [isContentModified, setIsContentIsModified] = useState(false);
   const [isContentSaved, setIsContentSaved] = useState(true);
   let query = useQuery();
+  let location = useLocation();
   
   useEffect(() => {
     if (isProcessing) {
@@ -145,6 +149,12 @@ function SlateTranscriptEditor(props) {
     }
     return getFileName();
   };
+
+  const getShareURL = (ts) => {
+    let currentPath = new URL(window.location.toString())
+    currentPath.search = ''
+    return `${currentPath.toString()}?ts=${ts}`
+  }
 
   const handleTimeUpdated = (e) => {
     console.log('handle time updated', e.target.currentTime)
@@ -530,7 +540,14 @@ function SlateTranscriptEditor(props) {
                   </Grid>
                 </Grid>
               </Grid>
-
+              <Grid item style={{width: '100%'}}>
+                <InputGroup size="sm" className="mb-3">
+                  <InputGroup.Prepend>
+                    <InputGroup.Text id="inputGroup-sizing-sm">Link at time</InputGroup.Text>
+                  </InputGroup.Prepend>
+                  <BFormControl aria-label="Share URL @ time" aria-describedby="inputGroup-sizing-sm" readOnly value={getShareURL(currentTime)}/>
+                </InputGroup>
+              </Grid>
               <Grid item>
                 <Link
                   color="inherit"
