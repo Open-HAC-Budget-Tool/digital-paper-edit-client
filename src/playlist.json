@@ -267,5 +267,14 @@
       "clipName": "05202021-782.360-aviation.mp4",
       "sttEngine": "AssemblyAI",
       "audioUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05202021-782.7860f2403e9b405895982c64e7a38a4f.wav"
+    },
+    {
+      "title": "2021-05-25, 03: Public Comment",
+      "slug": "cc-public-comment-20210525",
+      "id": "f6a6f68c19a54386bc40320973874f35",
+      "videoUrl": "20210525-city-council-03-public-comment.mp4",
+      "clipName": "20210525-city-council-03-public-comment.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "20210525-city-council-03-public-comment.f6a6f68c19a54386bc40320973874f35.wav"
     }
   ]
