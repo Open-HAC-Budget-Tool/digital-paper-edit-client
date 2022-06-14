@@ -18,33 +18,33 @@ code {
 }
 
 .btn-secondary {
-  color: #6c757d!important;
-  border-color: #6c757d!important;
-  background: transparent!important;
+  color: #6c757d;
+  border-color: #6c757d;
+  background: transparent;
 }
 
 .btn-secondary:hover {
-  color: #fff!important;
-  background-color: #6c757d!important;
-  border-color: #6c757d!important;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
 }
 
 .btn-light:hover {
   color: #212529;
-  background-color: #f8f9fa!important;
-  border-color: #ced4da!important;
+  background-color: #f8f9fa;
+  border-color: #ced4da;
 }
 
 .btn-light {
   color: #212529;
-  background-color: #e9ecef!important;
-  border-color: #ced4da!important;
+  background-color: #e9ecef;
+  border-color: #ced4da;
 }
 /* .breadcrumb {
-  margin-bottom: 1rem!important;
-  background-color: transparent!important;
-  border-radius: 0em!important;
-  border-bottom: solid lightgrey 0.01em!important;
-  padding-left: 0em!important;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-radius: 0em;
+  border-bottom: solid lightgrey 0.01em;
+  padding-left: 0em;
 } */
 
