@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import Divider from '@material-ui/core/Divider';
-import Tooltip from '@material-ui/core/Tooltip';
-import Button from '@material-ui/core/Button';
-import Menu from '@material-ui/core/Menu';
-import Link from '@material-ui/core/Link';
-import Grid from '@material-ui/core/Grid';
-import MenuItem from '@material-ui/core/MenuItem';
-import SaveAltIcon from '@material-ui/icons/SaveAlt';
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import subtitlesExportOptionsList from 'slate-transcript-editor/util/export-adapters/subtitles-generator/list.js';
-import InfoOutlined from '@material-ui/icons/InfoOutlined';
-import CreateOutlinedIcon from '@material-ui/icons/CreateOutlined';
+import React, { useState, useEffect } from "react";
+import Divider from "@material-ui/core/Divider";
+import Tooltip from "@material-ui/core/Tooltip";
+import Button from "@material-ui/core/Button";
+import Menu from "@material-ui/core/Menu";
+import Link from "@material-ui/core/Link";
+import Grid from "@material-ui/core/Grid";
+import MenuItem from "@material-ui/core/MenuItem";
+import SaveAltIcon from "@material-ui/icons/SaveAlt";
+import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
+import subtitlesExportOptionsList from "slate-transcript-editor/util/export-adapters/subtitles-generator/list.js";
+import InfoOutlined from "@material-ui/icons/InfoOutlined";
+import CreateOutlinedIcon from "@material-ui/icons/CreateOutlined";
 
 function SideBtns({
   handleExport,
@@ -32,22 +32,51 @@ function SideBtns({
   };
 
   return (
-    <Grid container direction="row" justify="flex-start" alignItems="flex-start">
-      <div>
-        <Tooltip title={'Export options'}>
-          <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleMenuClick}>
-            <SaveAltIcon color="primary" /> <KeyboardArrowDownIcon color="primary" />
-          </Button>
+    <div className="side-buttons">
+        <Tooltip
+          title={
+            " Double click on a word to jump to the corresponding point in the media"
+          }
+        >
+          <button color="primary">
+            <InfoOutlined />
+          </button>
         </Tooltip>
-        <Menu id="simple-menu" anchorEl={anchorMenuEl} keepMounted open={Boolean(anchorMenuEl)} onClose={handleMenuClose}>
+
+        <Tooltip
+          title={` Turn ${
+            isEditable ? "off" : "on"
+          } edit mode.  You can edit before exporting the transcript.`}
+        >
+          <button disabled={isProcessing} onClick={handleSetEditable}>
+            <CreateOutlinedIcon color={isEditable ? "secondary" : "white"} />
+          </button>
+        </Tooltip>
+
+        <Tooltip title={"Export options"}>
+          <button
+            aria-controls="simple-menu"
+            aria-haspopup="true"
+            onClick={handleMenuClick}
+          >
+            <SaveAltIcon /> <KeyboardArrowDownIcon />
+          </button>
+        </Tooltip>
+        <Menu
+          id="simple-menu"
+          anchorEl={anchorMenuEl}
+          keepMounted
+          open={Boolean(anchorMenuEl)}
+          onClose={handleMenuClose}
+        >
           <MenuItem onClick={handleMenuClose} disabled>
-            <Link style={{ color: 'black' }}>Text Export</Link>
+            <Link style={{ color: "black" }}>Text Export</Link>
           </MenuItem>
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'text',
-                ext: 'txt',
+                type: "text",
+                ext: "txt",
                 speakers: false,
                 timecodes: false,
                 isDownload: true,
@@ -62,8 +91,8 @@ function SideBtns({
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'text',
-                ext: 'txt',
+                type: "text",
+                ext: "txt",
                 speakers: true,
                 timecodes: false,
                 isDownload: true,
@@ -76,8 +105,8 @@ function SideBtns({
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'text',
-                ext: 'txt',
+                type: "text",
+                ext: "txt",
                 speakers: false,
                 timecodes: true,
                 isDownload: true,
@@ -90,8 +119,8 @@ function SideBtns({
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'text',
-                ext: 'txt',
+                type: "text",
+                ext: "txt",
                 speakers: true,
                 timecodes: true,
                 isDownload: true,
@@ -104,8 +133,8 @@ function SideBtns({
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'text',
-                ext: 'txt',
+                type: "text",
+                ext: "txt",
                 speakers: true,
                 timecodes: true,
                 atlasFormat: true,
@@ -120,8 +149,8 @@ function SideBtns({
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'word',
-                ext: 'docx',
+                type: "word",
+                ext: "docx",
                 speakers: false,
                 timecodes: false,
                 isDownload: true,
@@ -130,15 +159,15 @@ function SideBtns({
             }}
           >
             <Link color="primary">
-              {' '}
+              {" "}
               Word (<code>.docx</code>)
             </Link>
           </MenuItem>
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'word',
-                ext: 'docx',
+                type: "word",
+                ext: "docx",
                 speakers: true,
                 timecodes: false,
                 isDownload: true,
@@ -151,8 +180,8 @@ function SideBtns({
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'word',
-                ext: 'docx',
+                type: "word",
+                ext: "docx",
                 speakers: false,
                 timecodes: true,
                 isDownload: true,
@@ -165,8 +194,8 @@ function SideBtns({
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'word',
-                ext: 'docx',
+                type: "word",
+                ext: "docx",
                 speakers: true,
                 timecodes: true,
                 isDownload: true,
@@ -179,8 +208,8 @@ function SideBtns({
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'word',
-                ext: 'docx',
+                type: "word",
+                ext: "docx",
                 speakers: false,
                 timecodes: false,
                 inlineTimecodes: true,
@@ -193,7 +222,7 @@ function SideBtns({
           </MenuItem>
           <Divider />
           <MenuItem onClick={handleMenuClose} disabled>
-            <Link style={{ color: 'black' }}>Closed Captions Export</Link>
+            <Link style={{ color: "black" }}>Closed Captions Export</Link>
           </MenuItem>
           {subtitlesExportOptionsList.map(({ type, label, ext }, index) => {
             return (
@@ -212,13 +241,13 @@ function SideBtns({
           })}
           <Divider />
           <MenuItem onClick={handleMenuClose} disabled>
-            <Link style={{ color: 'black' }}>Developer options</Link>
+            <Link style={{ color: "black" }}>Developer options</Link>
           </MenuItem>
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'json-slate',
-                ext: 'json',
+                type: "json-slate",
+                ext: "json",
                 speakers: true,
                 timecodes: true,
                 isDownload: true,
@@ -233,8 +262,8 @@ function SideBtns({
           <MenuItem
             onClick={() => {
               handleExport({
-                type: 'json-digitalpaperedit',
-                ext: 'json',
+                type: "json-digitalpaperedit",
+                ext: "json",
                 speakers: true,
                 timecodes: true,
                 isDownload: true,
@@ -247,21 +276,8 @@ function SideBtns({
             </Link>
           </MenuItem>
         </Menu>
-      </div>
-      <Tooltip
-        title={` Turn ${isEditable ? 'off' : 'on'} edit mode.  You can edit before exporting the transcript.`}
-      >
-        <Button disabled={isProcessing} onClick={handleSetEditable}>
-          <CreateOutlinedIcon color="primary" color={isEditable ? 'secondary' : 'primary'} />
-        </Button>
-      </Tooltip>
-      <Tooltip title={' Double click on a word to jump to the corresponding point in the media'}>
-        <Button color="primary">
-          <InfoOutlined color="primary" />
-        </Button>
-      </Tooltip>
       {optionalBtns}
-    </Grid>
+    </div>
   );
 }
 
