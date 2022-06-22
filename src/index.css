@@ -280,6 +280,7 @@ code {
   column-gap: 1rem;
   padding: 1rem 0;
   max-height: 90vh;
+  min-height: 90vh;
   overflow-y: hidden;
 }
 

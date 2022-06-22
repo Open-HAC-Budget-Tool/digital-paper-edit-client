@@ -29,7 +29,7 @@ class Playlist extends React.Component {
       <>
         <HashRouter>
           <ListGroup
-            style={{ height: "50vh", overflow: "scroll" }}
+            style={{ height: "50vh", overflowY: "scroll" }}
             // variant="flush"
           >
             {this.props.items.map((item) => (
