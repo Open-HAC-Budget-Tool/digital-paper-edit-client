@@ -26,9 +26,9 @@ class SimpleItem extends Component {
       <LinkContainer to={this.showLinkPath()} style={{ cursor: 'pointer' }}>
         <ListGroup.Item action>
           <h6>{this.props.title}</h6>
-          {(this.props.presentation || this.props.proposal) && <div class='buttons'>
-            {this.props.presentation && <button class='button' onClick={this.openPresentation}>Presentation</button>}
-            {this.props.proposal && <button class='button' onClick={this.openProposal}>Proposal</button>}
+          {(this.props.presentation || this.props.proposal) && <div className='buttons'>
+            {this.props.presentation && <button className='button' onClick={this.openPresentation}>Presentation</button>}
+            {this.props.proposal && <button className='button' onClick={this.openProposal}>Proposal</button>}
           </div>}
         </ListGroup.Item>
       </LinkContainer>

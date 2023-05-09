@@ -16,7 +16,8 @@ import { Redirect } from "react-router-dom";
 
 import items from "../../playlist.json";
 import Playlist from "../Playlist/Playlist.js";
-
+window.ApiWrapper = ApiWrapper
+console.log('hello')
 const TranscriptViewer = React.lazy(() => import("../lib/TranscriptViewer"));
 
 const projectId = null;
@@ -102,8 +103,8 @@ class TranscriptView extends Component {
     }
     return (
       <>
-        <div class="navbar" bg="dark" variant="dark">
-          <h1 class="navbar-title">#HouBudget FY22 Workshops Watcher</h1>
+        <div className="navbar" bg="dark" variant="dark">
+          <h1 className="navbar-title">#HouBudget Workshops Watcher</h1>
           {/* <Nav className="mr-auto"></Nav> */}
           {/* <Nav>
             <small className="text-light text-right">

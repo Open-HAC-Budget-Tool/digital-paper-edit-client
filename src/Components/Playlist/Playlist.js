@@ -21,7 +21,10 @@ class Playlist extends React.Component {
   }
 
   showLinkPath = (id) => {
-    return `/fy22/${id}`;
+    if (id.includes('FY_2023')) {
+      return `/fy23/${id}`
+    }
+    return `/fy22/${id}`
   };
 
   render() {
@@ -32,7 +35,7 @@ class Playlist extends React.Component {
             style={{ height: "50vh", overflowY: "scroll" }}
             // variant="flush"
           >
-            {this.props.items.map((item) => (
+            {this.props.items.sort((itemA, itemB) => (itemB.title.includes('FY_2023') - itemA.title.includes('FY_2023'))).map((item) => (
               <SimpleItem
                 key={item.id}
                 id={item.id}

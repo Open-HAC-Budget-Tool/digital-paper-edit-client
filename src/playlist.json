@@ -1,6 +1,347 @@
 [
     {
+      "title": "2022-05-11-FY_2023_Budget_Workshop_Finance",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-11-FY_2023_Budget_Workshop_Finance",
+      "id": "6kjxdkp5gf-c911-45e8-8bea-103b27413e09",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/VI_FIN.pdf",
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/finance.pdf",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-11-FY_2023_Budget_Workshop_Finance.mp4",
+      "clipName": "houstontx-2022-05-11-FY_2023_Budget_Workshop_Finance.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-11-FY_2023_Budget_Workshop_Finance.mp4"
+    },
+    {
+      "title": "2022-05-11-FY_2023_Budget_Workshop_Fire_Department",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-11-FY_2023_Budget_Workshop_Fire_Department",
+      "id": "6kjxdg7e9a-65bd-4cb8-a529-ecfb3275194d",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/fire.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/III_HFD.pdf",
+
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-11-FY_2023_Budget_Workshop_Fire_Department.mp4",
+      "clipName": "houstontx-2022-05-11-FY_2023_Budget_Workshop_Fire_Department.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-11-FY_2023_Budget_Workshop_Fire_Department.mp4"
+    },
+    {
+      "title": "2022-05-11-Special-Called_Budget_and_Fiscal_Affairs",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-11-Special-Called_Budget_and_Fiscal_Affairs",
+      "id": "6kjxd656j8-85a0-41f8-9683-48b3fb2be412",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-11-Special-Called_Budget_and_Fiscal_Affairs.mp4",
+      "clipName": "houstontx-2022-05-11-Special-Called_Budget_and_Fiscal_Affairs.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-11-Special-Called_Budget_and_Fiscal_Affairs.mp4"
+    },
+    {
+      "title": "2022-05-16-FY_2023_Budget_Workshop_Department_of_Neighborhoods",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-16-FY_2023_Budget_Workshop_Department_of_Neighborhoods",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/don.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/V_DON.pdf",
+
+      "id": "6kjxdg8ad1-79c4-4df2-aa4e-6a160e8375a4",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Department_of_Neighborhoods.mp4",
+      "clipName": "houstontx-2022-05-16-FY_2023_Budget_Workshop_Department_of_Neighborhoods.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Department_of_Neighborhoods.mp4"
+    },
+    {
+      "title": "2022-05-16-FY_2023_Budget_Workshop_Fleet_Management",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-16-FY_2023_Budget_Workshop_Fleet_Management",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/fleet.pdf",
+
+      "id": "6kjxdgvbks-f77b-45aa-9674-2206d08b8914",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Fleet_Management.mp4",
+      "clipName": "houstontx-2022-05-16-FY_2023_Budget_Workshop_Fleet_Management.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Fleet_Management.mp4"
+    },
+    {
+      "title": "2022-05-16-FY_2023_Budget_Workshop_Housing",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-16-FY_2023_Budget_Workshop_Housing",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/housing.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/V_HCD.pdf",
+      
+      "id": "6kjxdzt756-f4b6-49cc-980b-d4c19ef4b247",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Housing.mp4",
+      "clipName": "houstontx-2022-05-16-FY_2023_Budget_Workshop_Housing.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Housing.mp4"
+    },
+    {
+      "title": "2022-05-16-FY_2023_Budget_Workshop_Houston_Public_Library",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-16-FY_2023_Budget_Workshop_Houston_Public_Library",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/library.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/V_LIB.pdf",
+
+      "id": "6kjxdsx1qi-ca49-4d3d-b0e2-400e73ebe45e",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Houston_Public_Library.mp4",
+      "clipName": "houstontx-2022-05-16-FY_2023_Budget_Workshop_Houston_Public_Library.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Houston_Public_Library.mp4"
+    },
+    {
+      "title": "2022-05-16-FY_2023_Budget_Workshop_Houston_Public_Works",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-16-FY_2023_Budget_Workshop_Houston_Public_Works",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/hpw.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/IV_HPW.pdf", 
+
+      "id": "6kjxdsa3uv-f704-477e-a2f6-d014d1f55cf8",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Houston_Public_Works.mp4",
+      "clipName": "houstontx-2022-05-16-FY_2023_Budget_Workshop_Houston_Public_Works.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Houston_Public_Works.mp4"
+    },
+    {
+      "title": "2022-05-16-FY_2023_Budget_Workshop_Human_Resources",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-16-FY_2023_Budget_Workshop_Human_Resources",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/hr.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/VI_HR.pdf",
+
+      "id": "6kjxd4kke2-bc71-4462-92b6-5162eb8dfcca",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Human_Resources.mp4",
+      "clipName": "houstontx-2022-05-16-FY_2023_Budget_Workshop_Human_Resources.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Human_Resources.mp4"
+    },
+    {
+      "title": "2022-05-16-FY_2023_Budget_Workshop_Information_Technology",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-16-FY_2023_Budget_Workshop_Information_Technology",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/hits.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/VI_HITS.pdf",
+
+      "id": "6kjxd41vpy-3f71-4f7c-bb5e-d4fb482af22a",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Information_Technology.mp4",
+      "clipName": "houstontx-2022-05-16-FY_2023_Budget_Workshop_Information_Technology.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Information_Technology.mp4"
+    },
+    {
+      "title": "2022-05-16-FY_2023_Budget_Workshop_Office_of_Business_Opportunity",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-16-FY_2023_Budget_Workshop_Office_of_Business_Opportunity",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/obo.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/VI_OBO.pdf",
+
+      "id": "6kjxd4ulg4-e068-4e41-8ec4-69b94e02dd00",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Office_of_Business_Opportunity.mp4",
+      "clipName": "houstontx-2022-05-16-FY_2023_Budget_Workshop_Office_of_Business_Opportunity.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-16-FY_2023_Budget_Workshop_Office_of_Business_Opportunity.mp4"
+    },
+    {
+      "title": "2022-05-17-FY_2023_Budget_Workshop_General_Services",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-17-FY_2023_Budget_Workshop_General_Services",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/gsd.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/IV_GSD.pdf",
+
+      "id": "6kjxd4f53z-c84e-4d45-b53f-00fc9f0b2753",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-17-FY_2023_Budget_Workshop_General_Services.mp4",
+      "clipName": "houstontx-2022-05-17-FY_2023_Budget_Workshop_General_Services.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-17-FY_2023_Budget_Workshop_General_Services.mp4"
+    },
+    {
+      "title": "2022-05-17-FY_2023_Budget_Workshop_Houston_Police_Department",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-17-FY_2023_Budget_Workshop_Houston_Police_Department",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/police.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/III_HPD.pdf",
+
+      "id": "6kjxd1v32e-fc24-4efb-a7ff-e40665649981",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-17-FY_2023_Budget_Workshop_Houston_Police_Department.mp4",
+      "clipName": "houstontx-2022-05-17-FY_2023_Budget_Workshop_Houston_Police_Department.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-17-FY_2023_Budget_Workshop_Houston_Police_Department.mp4"
+    },
+    {
+      "title": "2022-05-17-FY_2023_Budget_Workshop_Parks_Recreation",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-17-FY_2023_Budget_Workshop_Parks_Recreation",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/parks.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/V_PRK.pdf",
+
+      "id": "6kjxdysks5-fb3d-4d4e-a6e0-d5e6cc326dc8",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-17-FY_2023_Budget_Workshop_Parks_Recreation.mp4",
+      "clipName": "houstontx-2022-05-17-FY_2023_Budget_Workshop_Parks_Recreation.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-17-FY_2023_Budget_Workshop_Parks_Recreation.mp4"
+    },
+    {
+      "title": "2022-05-18-FY_2023_Budget_Workshop_Houston_Airport_System",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-18-FY_2023_Budget_Workshop_Houston_Airport_System",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/has.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/IX_HAS.pdf",
+
+      "id": "6kjxdynson-ee78-4a38-a6ea-5721f59c1f73",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-18-FY_2023_Budget_Workshop_Houston_Airport_System.mp4",
+      "clipName": "houstontx-2022-05-18-FY_2023_Budget_Workshop_Houston_Airport_System.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-18-FY_2023_Budget_Workshop_Houston_Airport_System.mp4"
+    },
+    {
+      "title": "2022-05-18-FY_2023_Budget_Workshop_Houston_Health",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-18-FY_2023_Budget_Workshop_Houston_Health",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/health.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/V_HHD.pdf", 
+
+      "id": "6kjxdxxtz1-486e-4d93-997a-04a8595e2339",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-18-FY_2023_Budget_Workshop_Houston_Health.mp4",
+      "clipName": "houstontx-2022-05-18-FY_2023_Budget_Workshop_Houston_Health.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-18-FY_2023_Budget_Workshop_Houston_Health.mp4"
+    },
+    {
+      "title": "2022-05-18-FY_2023_Budget_Workshop_Solid_Waste_Management",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-18-FY_2023_Budget_Workshop_Solid_Waste_Management",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/swd.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/IV_SWM.pdf",
+
+      "id": "6kjxdx5ueg-ef34-435a-8d08-ad46b6eb9efd",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-18-FY_2023_Budget_Workshop_Solid_Waste_Management.mp4",
+      "clipName": "houstontx-2022-05-18-FY_2023_Budget_Workshop_Solid_Waste_Management.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-18-FY_2023_Budget_Workshop_Solid_Waste_Management.mp4"
+    },
+    {
+      "title": "2022-05-19-FY_2023_Budget_Workshop_Administration_Regulatory_Affairs",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-19-FY_2023_Budget_Workshop_Administration_Regulatory_Affairs",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/ara.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/VI_ARA.pdf",
+
+      "id": "6kjxdbykl6-7e82-4584-bdf1-adf22a2f2186",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Administration_Regulatory_Affairs.mp4",
+      "clipName": "houstontx-2022-05-19-FY_2023_Budget_Workshop_Administration_Regulatory_Affairs.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Administration_Regulatory_Affairs.mp4"
+    },
+    {
+      "title": "2022-05-19-FY_2023_Budget_Workshop_City_Council",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-19-FY_2023_Budget_Workshop_City_Council",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/council.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/VI_CNL.pdf",
+
+      "id": "6kjxd0r55i-f116-46fc-8baa-643b4863a8f8",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_City_Council.mp4",
+      "clipName": "houstontx-2022-05-19-FY_2023_Budget_Workshop_City_Council.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_City_Council.mp4"
+    },
+    {
+      "title": "2022-05-19-FY_2023_Budget_Workshop_Controller_s_Office",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-19-FY_2023_Budget_Workshop_Controller_s_Office",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/controller.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/VI_CTR.pdf",
+
+      "id": "6kjxd0v2q2-ec78-4406-9ba4-b6bffdbf6f8a",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Controller_s_Office.mp4",
+      "clipName": "houstontx-2022-05-19-FY_2023_Budget_Workshop_Controller_s_Office.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Controller_s_Office.mp4"
+    },
+    {
+      "title": "2022-05-19-FY_2023_Budget_Workshop_Legal",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-19-FY_2023_Budget_Workshop_Legal",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/legal.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/VI_LGL.pdf",
+
+      "id": "6kjxdlxpvr-710e-4509-996d-3d2e7c9468a3",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Legal.mp4",
+      "clipName": "houstontx-2022-05-19-FY_2023_Budget_Workshop_Legal.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Legal.mp4"
+    },
+    {
+      "title": "2022-05-19-FY_2023_Budget_Workshop_Mayor_s_Office",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-19-FY_2023_Budget_Workshop_Mayor_s_Office",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/mayor.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/VI_MAY.pdf",
+
+      "id": "6kjxdl52c5-ddac-465e-85ef-36d1f65afdcd",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Mayor_s_Office.mp4",
+      "clipName": "houstontx-2022-05-19-FY_2023_Budget_Workshop_Mayor_s_Office.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Mayor_s_Office.mp4"
+    },
+    {
+      "title": "2022-05-19-FY_2023_Budget_Workshop_Municipal_Courts",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-19-FY_2023_Budget_Workshop_Municipal_Courts",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/courts.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/III_MCD.pdf",
+
+      "id": "6kjxdiwlwa-e434-41ff-ab70-71b0491ffcf3",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Municipal_Courts.mp4",
+      "clipName": "houstontx-2022-05-19-FY_2023_Budget_Workshop_Municipal_Courts.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Municipal_Courts.mp4"
+    },
+    {
+      "title": "2022-05-19-FY_2023_Budget_Workshop_Planning",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-19-FY_2023_Budget_Workshop_Planning",
+
+      "presentation": "https://www.houstontx.gov/council/committees/fy23workshops/planning.pdf",
+      "proposal": "https://www.houstontx.gov/budget/23budprop/IV_PD.pdf",
+
+      "id": "6kjxdq3tmc-b063-45ed-a95e-5c87a3edb344",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Planning.mp4",
+      "clipName": "houstontx-2022-05-19-FY_2023_Budget_Workshop_Planning.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-FY_2023_Budget_Workshop_Planning.mp4"
+    },
+    {
+      "title": "2022-05-19-Special-Called_Budget_And_Fiscal_Affairs",
+      "collection": "2022 Budget Workshops for FY2023",
+      "slug": "2022-05-19-Special-Called_Budget_And_Fiscal_Affairs",
+
+      "id": "6kjxd89r0m-af45-41db-a8bf-3b034e0dd27b",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-Special-Called_Budget_And_Fiscal_Affairs.mp4",
+      "clipName": "houstontx-2022-05-19-Special-Called_Budget_And_Fiscal_Affairs.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-05-19-Special-Called_Budget_And_Fiscal_Affairs.mp4"
+    },  
+    {
       "title": "2021-05-12, 01: Special BFA: 5 Year Forecast & Overview",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "forecast",
       "id": "f2dcae685b4244f89133c58885cfd0f4",
       "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05132021-502.360-special.mp4",
@@ -10,6 +351,7 @@
     },
     {
       "title": "2021-05-12, 02: Finance",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "finance",
       "proposal": "https://www.houstontx.gov/budget/22budprop/VI_FIN.pdf",
       "id": "a65b64faaa5747228c7c81a7d3ebab6c",
@@ -20,6 +362,7 @@
     },
     {
       "title": "2021-05-17, 01: Mayor's Office",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "mayors-office",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/mayor.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/VI_MAY.pdf",
@@ -31,6 +374,7 @@
     },
     {
       "title": "2021-05-17, 02: Housing",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "housing",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/housing.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/V_HCD.pdf",
@@ -42,6 +386,7 @@
     },
     {
       "title": "2021-05-17, 03: Legal",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "legal",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/legal.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/VI_LGL.pdf",
@@ -53,6 +398,7 @@
     },
     {
       "title": "2021-05-17, 04: Human Resources",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "human-resources",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/hr.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/VI_HR.pdf",
@@ -64,6 +410,7 @@
     },
     {
       "title": "2021-05-17, 05: Municipal Courts",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "municipal-courts",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/courts.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/III_MCD.pdf",
@@ -75,6 +422,7 @@
     },
     {
       "title": "2021-05-17, 06: Library",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "library",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/library.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/V_LIB.pdf",
@@ -86,6 +434,7 @@
     },
     {
       "title": "2021-05-17, 07: Department of Neighborhoods",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "dept-of-neighborhoods",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/don.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/V_DON.pdf",
@@ -97,6 +446,7 @@
     },
     {
       "title": "2021-05-17, 08: Information Technology",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "info-tech",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/hits.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/VI_HITS.pdf",
@@ -108,6 +458,7 @@
     },
     {
       "title": "2021-05-18, 01: Police",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "police",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/police.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/III_HPD.pdf",
@@ -119,6 +470,7 @@
     },
     {
       "title": "2021-05-18, 02: Fire",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "fire",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/fire.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/III_HFD.pdf",
@@ -130,6 +482,7 @@
     },
     {
       "title": "2021-05-18, 03: Parks & Recreation",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "parks",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/parks.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/V_PRK.pdf",
@@ -141,6 +494,7 @@
     },
     {
       "title": "2021-05-18, 04: General Services",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "general-services",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/gsd.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/IV_GSD.pdf",
@@ -152,6 +506,7 @@
     },
     {
       "title": "2021-05-19, 01: Public Works",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "public-works",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/hpw.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/IV_HPW.pdf",      
@@ -163,6 +518,7 @@
     },
     {
       "title": "2021-05-19, 02: Health",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "health",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/health.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/V_HHD.pdf",      
@@ -174,6 +530,7 @@
     },
     {
       "title": "2021-05-19, 03: Solid Waste",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "solid-waste",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/swd.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/IV_SWM.pdf",
@@ -185,6 +542,7 @@
     },
     {
       "title": "2021-05-20, 01: Special BFA: Controller's Trends Report",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "trends",
       "id": "d8346744d0e64bb880f2a5330fc0742d",
       "videoUrl": "https://councilwatch.s3.us-east-2.amazonaws.com/05212021-721.360-trends.mp4",
@@ -194,6 +552,7 @@
     },
     {
       "title": "2021-05-20, 02: Controller's Office",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "controllers",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/controller.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/VI_CTR.pdf",
@@ -205,6 +564,7 @@
     },
     {
       "title": "2021-05-20, 03: Planning & Development",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "planning",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/planning.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/IV_PD.pdf",
@@ -216,6 +576,7 @@
     },
     {
       "title": "2021-05-20, 04: Office of Business Opportunity",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "obo",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/obo.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/VI_OBO.pdf",
@@ -227,6 +588,7 @@
     },
     {
       "title": "2021-05-20, 05: Fleet",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "fleet",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/fleet.pdf",
       "id": "b17a190147bd4a55ac067362a2f98030",
@@ -237,6 +599,7 @@
     },
     {
       "title": "2021-05-20, 06: Adminstrative & Regulatory Affairs",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "ara",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/ara.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/VI_ARA.pdf",
@@ -248,6 +611,7 @@
     },
     {
       "title": "2021-05-20, 07: City Council",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "city-council",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/council.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/VI_CNL.pdf",
@@ -259,6 +623,7 @@
     },
     {
       "title": "2021-05-20, 08: Aviation",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "aviation",
       "presentation": "https://www.houstontx.gov/council/committees/fy22workshops/has.pdf",
       "proposal": "https://www.houstontx.gov/budget/22budprop/IX_HAS.pdf",
@@ -270,6 +635,7 @@
     },
     {
       "title": "2021-05-25, 03: Public Comment",
+      "collection": "2021 Budget Workshops for FY2022",
       "slug": "cc-public-comment-20210525",
       "id": "f6a6f68c19a54386bc40320973874f35",
       "videoUrl": "20210525-city-council-03-public-comment.mp4",

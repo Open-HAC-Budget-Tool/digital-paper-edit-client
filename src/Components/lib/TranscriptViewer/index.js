@@ -284,7 +284,7 @@ function SlateTranscriptEditor(props) {
 
     return (
       <div className="text-box" {...props.attributes}>
-        <div class="top">
+        <div className="top">
           {showTimecodes && (
             <div className={"p-t-2 text-truncate"} contentEditable={false}>
               <code
@@ -320,7 +320,7 @@ function SlateTranscriptEditor(props) {
             </div>
           )}
         </div>
-        <div class="bottom">{props.children}</div>
+        <div className="bottom">{props.children}</div>
       </div>
     );
   };
@@ -612,8 +612,8 @@ function SlateTranscriptEditor(props) {
         </Tooltip>
       )}
 
-      <div class="body-wrapper">
-        <div class="sidebar">
+      <div className="body-wrapper">
+        <div className="sidebar">
           {props.mediaUrl && (
             <>
               <div style={{ backgroundColor: "black" }}>
@@ -626,7 +626,7 @@ function SlateTranscriptEditor(props) {
                   playsInline
                 ></video>
               </div>
-              <div class="timer">
+              <div className="timer">
                 <p>
                   <code style={{ color: "grey" }}>
                     {shortTimecode(currentTime)}
@@ -737,7 +737,7 @@ function SlateTranscriptEditor(props) {
           optionalBtns={props.optionalBtns}
           />
           
-        <div class="transcripts">
+        <div className="transcripts">
           {value.length !== 0 ? (
             <>
               <Paper elevation={3}>
