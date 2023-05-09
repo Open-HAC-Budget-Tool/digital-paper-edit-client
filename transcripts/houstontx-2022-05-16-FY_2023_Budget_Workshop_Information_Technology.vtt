@@ -1,0 +1,1972 @@
+WEBVTT
+
+00:00.170 --> 00:04.400
+You. So thank you. Thank you. We'll now move into the
+
+00:04.850 --> 00:08.670
+patient, overly patient It department,
+
+00:10.370 --> 00:13.360
+as we are now officially 55 minutes over.
+
+00:16.770 --> 00:20.782
+But I'm sure Director Kent will make up for that 55 minutes
+
+00:20.836 --> 00:21.920
+of lost time.
+
+00:55.450 --> 00:59.254
+Am I on? So,
+
+00:59.292 --> 01:01.350
+good afternoon. Good afternoon.
+
+01:02.330 --> 01:06.418
+As mayor pro Tim Martin indicated, I am Lisa Kent.
+
+01:06.514 --> 01:10.294
+I am the city's chief information officer and the director
+
+01:10.422 --> 01:14.442
+of the Houston It. Services Department. With me.
+
+01:14.496 --> 01:17.654
+Here is William Bryant. William was introduced
+
+01:17.702 --> 01:20.914
+first by Director Emo. He is the department
+
+01:20.982 --> 01:25.550
+fiscal Administrator assigned to Hits. He is a member of the finance organization.
+
+01:26.770 --> 01:30.682
+Will serves in a CFO like function for my department.
+
+01:30.826 --> 01:34.670
+And I also want to acknowledge the two financial analysts that support
+
+01:34.740 --> 01:37.826
+Will. One of them is here today. That's herbert Gardner. He's raising his
+
+01:37.848 --> 01:41.106
+hand back there. And the other one is Curia askew. She's out of
+
+01:41.128 --> 01:44.834
+the office today, so she's not present. So together, this team
+
+01:44.872 --> 01:48.622
+of three helps manage a very large and complex
+
+01:48.686 --> 01:52.422
+budget for the Hits department. And I want to thank them
+
+01:52.476 --> 01:55.666
+for helping me prepare this presentation and all the data associated
+
+01:55.698 --> 01:59.186
+with it. I also want to give a huge shout out to the Hits executive
+
+01:59.218 --> 02:03.498
+team. They are not here. They are busy working on all the projects that support
+
+02:03.584 --> 02:07.194
+you and our customers. But I will acknowledge them
+
+02:07.312 --> 02:11.066
+in the next few slides and give you a little flavor for what
+
+02:11.088 --> 02:14.910
+they do in our organization. Many of you, in fact,
+
+02:14.980 --> 02:18.654
+most of you, have met all of my direct reports and know them from
+
+02:18.692 --> 02:21.998
+either Cyber or TTI presentations. And I
+
+02:22.004 --> 02:25.482
+know you know how proud I am of them, each one of them personally,
+
+02:25.546 --> 02:29.006
+as well as for the professional work that they do for the city of Houston
+
+02:29.118 --> 02:32.498
+each and every day. So with that, let's get started, and we'll go to the
+
+02:32.504 --> 02:33.410
+next slide.
+
+02:36.250 --> 02:39.574
+So the proposed fiscal year 23 budget for
+
+02:39.612 --> 02:43.880
+Hits is $98,051,415.
+
+02:44.250 --> 02:48.322
+Hits budget is entirely a central services revolving
+
+02:48.386 --> 02:51.626
+fund, which means that the funding we spend
+
+02:51.728 --> 02:55.274
+is charged back to those departments who consume our services.
+
+02:55.472 --> 02:58.966
+And that chargeback shows up in each of those department budgets
+
+02:58.998 --> 03:02.814
+under their restricted accounts. Our FY 23
+
+03:02.852 --> 03:07.002
+budget includes the funding for 210.6 positions.
+
+03:07.066 --> 03:10.510
+Please note that the FTE funded account amount
+
+03:10.580 --> 03:14.846
+for the previous year FY 22 was 202 positions,
+
+03:14.958 --> 03:18.740
+with a vacancy factor of around 7.4%.
+
+03:19.510 --> 03:23.678
+This FY 23 increase in the funded FTEs
+
+03:23.774 --> 03:27.794
+is due to the consolidation of It personnel from
+
+03:27.832 --> 03:31.186
+three different departments. So these are not net new positions.
+
+03:31.218 --> 03:34.520
+They are positions that are moving from one department into the other.
+
+03:34.890 --> 03:39.062
+For FY 23, we did choose to increase our vacancy factor
+
+03:39.126 --> 03:42.460
+to approximately 7.77%.
+
+03:42.910 --> 03:46.074
+The decision to do that was made in consideration not only
+
+03:46.112 --> 03:49.846
+of the economic conditions, but specifically
+
+03:49.958 --> 03:53.310
+from the significant challenges that we're encountering in the It
+
+03:53.380 --> 03:56.474
+market and that is adversely impacting our ability
+
+03:56.522 --> 04:00.266
+to recruit It professionals. You may recall Director
+
+04:00.298 --> 04:04.270
+Emo referenced the great resignation in her initial presentation.
+
+04:05.010 --> 04:08.590
+This is certainly something that is impacting it everywhere.
+
+04:08.670 --> 04:11.694
+It is not a problem that is unique to the City of Houston.
+
+04:11.822 --> 04:15.362
+I am a member of the Inspire Houston CIOs group
+
+04:15.416 --> 04:19.474
+for the city of the Houston regional area. I regularly
+
+04:19.522 --> 04:23.366
+talk and visit with CIOs from all parts of the business,
+
+04:23.468 --> 04:26.614
+including private sector, and every single one of us
+
+04:26.652 --> 04:30.554
+is facing this challenge. And so this is something that is
+
+04:30.592 --> 04:34.582
+not unique to City of Houston government. Looking department
+
+04:34.646 --> 04:38.266
+wide below that first chart. This body of
+
+04:38.288 --> 04:42.486
+the slide shows the distribution of funds and personnel across seven key areas
+
+04:42.518 --> 04:46.442
+within our department. You can see the breakdown of budget and personnel
+
+04:46.506 --> 04:49.374
+for each of those areas. I'm not going to read this chart, but it's there
+
+04:49.412 --> 04:51.710
+for your reference. So, next slide.
+
+04:54.290 --> 04:57.530
+Now let's go through those key functions. I'm going to do this quickly in a
+
+04:57.540 --> 05:01.234
+more abbreviated fashion than I would normally have done. But I do want to start
+
+05:01.272 --> 05:04.658
+out that at the Director's office level, as the CIO for the City of
+
+05:04.664 --> 05:08.454
+Houston, I am responsible for It strategic planning and
+
+05:08.492 --> 05:12.278
+It governance. In addition to that, we have the amazing
+
+05:12.444 --> 05:16.146
+Dr. Jane Wu, who is assistant director for our Resource Management
+
+05:16.178 --> 05:20.070
+division. She's responsible for those additional functions underneath.
+
+05:20.230 --> 05:23.834
+Next, the cybersecurity team is led by the city's Chief Information
+
+05:23.952 --> 05:27.542
+Security Officer, who is another incredibly talented
+
+05:27.606 --> 05:31.114
+and powerful leader. That's Dr. Christopher Mitchell. And yes, we do
+
+05:31.152 --> 05:34.478
+have two PhDs as part of my Direct Reports team.
+
+05:34.564 --> 05:38.094
+We're very proud of that. Chris is responsible for
+
+05:38.132 --> 05:41.690
+those things that you see listed below. I do want to emphasize
+
+05:41.770 --> 05:45.074
+that for FY 23, we will be beginning our efforts to
+
+05:45.112 --> 05:48.770
+develop the next four year Master plan. And the focus
+
+05:48.840 --> 05:51.934
+of that going forward will be building an infrastructure
+
+05:51.982 --> 05:55.774
+with a zero trust model. And so council member Cayman
+
+05:55.822 --> 05:58.854
+in advance. I know you're going to be asking the question, what are
+
+05:58.892 --> 06:02.294
+ways that you guys can support us or unmet needs? We are
+
+06:02.332 --> 06:06.194
+always going to ask for additional support and additional funding
+
+06:06.242 --> 06:09.734
+for our cybersecurity program. So you'll hear
+
+06:09.772 --> 06:13.434
+more from us in the private briefings that we address with you and where
+
+06:13.472 --> 06:16.554
+we educate you a little bit on what we're facing and what we're doing about
+
+06:16.592 --> 06:20.234
+it. Transitioning to
+
+06:20.272 --> 06:23.598
+Enterprise infrastructure services. The Deputy CIO position
+
+06:23.684 --> 06:27.214
+for this functional area is currently vacant. However, we are
+
+06:27.252 --> 06:31.034
+very blessed to have two strong and capable leaders underneath
+
+06:31.082 --> 06:34.314
+that vacant position. And so those two groups are
+
+06:34.372 --> 06:37.726
+the network and telecom services group, led by Assistant Director Anthony
+
+06:37.758 --> 06:41.646
+Evigan and the Compute services, led by Assistant Director
+
+06:41.678 --> 06:45.266
+Burke Corford. This is our largest organization, as you can
+
+06:45.288 --> 06:48.790
+see from the Plier side, both on dollars and on
+
+06:48.940 --> 06:53.286
+positions. And so you can take a look later at all the amazing
+
+06:53.388 --> 06:55.880
+things that they do and to keep the city running.
+
+06:56.490 --> 07:00.374
+Next slide. Next is Public
+
+07:00.412 --> 07:04.230
+Safety Communications, and this is led by a very strong technical
+
+07:04.310 --> 07:08.006
+leader, and that is Assistant Director Nick Curran, one of the things that's
+
+07:08.038 --> 07:11.322
+not listed in this description. So just a feel for scale.
+
+07:11.466 --> 07:14.814
+We support over 18,000 radios within the
+
+07:14.852 --> 07:18.206
+city of Houston. Those are largely police and fire. They're a
+
+07:18.228 --> 07:21.566
+combination of handheld or portable radios in
+
+07:21.588 --> 07:24.718
+addition to the in car or mobile radios.
+
+07:24.894 --> 07:29.202
+Besides those 18,000, we also support 6600
+
+07:29.256 --> 07:32.498
+radios, for which we sell those services to
+
+07:32.584 --> 07:36.370
+more than 30 greater Houston regional partners.
+
+07:37.350 --> 07:41.682
+And then these last three programming areas are all led by Summer Shao.
+
+07:41.826 --> 07:45.526
+Summer is one of the real transformational forces on our
+
+07:45.548 --> 07:49.158
+Direct Reports team. We couldn't do our job without
+
+07:49.244 --> 07:52.714
+her and her capable folks. She is responsible for those.
+
+07:52.752 --> 07:56.074
+Next three. I'm not going to read each one of them, but I will point
+
+07:56.112 --> 07:59.866
+out that Enterprise Application Services
+
+07:59.968 --> 08:03.546
+encompasses ERP, which Council Member Kubosh,
+
+08:03.578 --> 08:07.434
+I know you sometimes ask me about acronyms that is essentially Enterprise
+
+08:07.482 --> 08:10.842
+Resources Management and Planning is our SAP
+
+08:10.906 --> 08:15.060
+platform. So that's our financial procurement and HR system.
+
+08:15.670 --> 08:19.134
+That group also includes data management, enterprise, GIS,
+
+08:19.182 --> 08:22.798
+analytics and so forth. And then client management solutions.
+
+08:22.894 --> 08:26.534
+Those are CSMART. That's the courts where my
+
+08:26.572 --> 08:30.210
+team maintains the system that Judge Marshall's organization
+
+08:30.290 --> 08:33.654
+uses to operate her business. And then finally we have
+
+08:33.692 --> 08:37.774
+the Hits It Project Management Group, which works on project governance,
+
+08:37.922 --> 08:41.590
+scope development metrics, and so forth to help us ensure that those projects
+
+08:41.670 --> 08:44.570
+meet the expected outcomes. Next slide.
+
+08:47.230 --> 08:50.870
+So there aren't any direct statutes that require us to implement
+
+08:50.950 --> 08:54.826
+specific electronic systems. However, all of the city departments
+
+08:54.858 --> 08:58.330
+that you hear from depend on Hits in order to implement
+
+08:58.410 --> 09:01.886
+their business, and many of them do have statutory requirements to
+
+09:01.908 --> 09:05.702
+conduct certain services. These three cyber statutes
+
+09:05.786 --> 09:08.546
+listed below, I'm not going to go through each one of them, but I know
+
+09:08.568 --> 09:12.414
+that you recognize HIPAA and PCI and security sensitive
+
+09:12.462 --> 09:16.390
+information that affects our airport system. Next slide.
+
+09:18.570 --> 09:21.190
+In terms of societal impact, again,
+
+09:21.260 --> 09:24.502
+all city departments depend on us. We have
+
+09:24.556 --> 09:28.006
+several stats listed there that you can read through that give you a feel for
+
+09:28.028 --> 09:31.714
+the scale of what we support. At the bottom of the chart,
+
+09:31.762 --> 09:35.322
+I did list just a few examples of citizen facing services,
+
+09:35.456 --> 09:38.906
+and we had planned to share some statistics with you. I can get those to
+
+09:38.928 --> 09:42.966
+you offline if you're interested. But Council Member Kubosh,
+
+09:42.998 --> 09:46.154
+one of those was infor, as a matter of fact, for dawn statistics
+
+09:46.202 --> 09:49.040
+about how much they use that platform for.
+
+09:50.050 --> 09:53.418
+Next slide. So let's talk about funding.
+
+09:53.514 --> 09:57.426
+This is the second fiscal year that Hits is budgeted completely in the
+
+09:57.448 --> 10:01.362
+revolving fund. Therefore, all of our expenses are revolved back
+
+10:01.416 --> 10:05.006
+or charged back to the city department customers. The chargeback
+
+10:05.038 --> 10:08.338
+is seen as an expense again in their restricted accounts, but it's
+
+10:08.354 --> 10:11.282
+offsetting as revenue for my department. And so therefore,
+
+10:11.346 --> 10:15.234
+this table that you see on this chart represents
+
+10:15.362 --> 10:18.914
+a revenue table, and it matches the expenditures table
+
+10:18.962 --> 10:22.010
+that you'll see on the next slide. These amounts will always be the same.
+
+10:22.080 --> 10:24.860
+We have to zero out our budget at the end of the year.
+
+10:26.590 --> 10:30.266
+Thank you. So the revenue highlights. Again,
+
+10:30.368 --> 10:33.806
+most of our revenue comes back, but here's a couple of unique revenues that we
+
+10:33.828 --> 10:38.010
+generate that you might not know about. The first is the Verizon Wireless Rebate
+
+10:38.170 --> 10:42.462
+in FY 22. Actual revenues already collected is a million dollars.
+
+10:42.596 --> 10:46.210
+Of that, 794,000 went to the General
+
+10:46.280 --> 10:50.414
+Government Revenue Fund, 43,000 went to the Houston Airport
+
+10:50.462 --> 10:53.842
+System and 163,000 went to Houston Public
+
+10:53.896 --> 10:57.326
+Works. Another cool revenue source is that radio revenue
+
+10:57.358 --> 11:00.806
+that I talked about. That will be $1.9 million by
+
+11:00.828 --> 11:04.406
+the time we end this fiscal year. And again, that is
+
+11:04.428 --> 11:08.310
+booked to the city's general Revenue Fund. Next slide.
+
+11:10.430 --> 11:14.186
+So, expenditures. This chart represents a historical view of
+
+11:14.208 --> 11:17.530
+our expenditures. The variance column over to the right,
+
+11:17.600 --> 11:20.954
+second to last, shows you the comparison of FY 23
+
+11:20.992 --> 11:24.654
+to FY 22 adopted budget. As you can see, that variance is
+
+11:24.692 --> 11:28.158
+10.8% and I'll go into some details about that on the
+
+11:28.164 --> 11:29.150
+next slide.
+
+11:31.890 --> 11:36.590
+So the overall proposed budget we are submitting again is 98,051,000
+
+11:36.660 --> 11:40.034
+in change. Of that only 31% is for
+
+11:40.072 --> 11:44.018
+personnel. 69% of our budget is for services
+
+11:44.104 --> 11:47.746
+and supplies that provide those products and services
+
+11:47.848 --> 11:51.314
+to other departments. The pie chart on the right is that
+
+11:51.352 --> 11:54.886
+nonpersonal breakdown. That 69%. And so one
+
+11:54.908 --> 11:58.322
+thing that's important to note over the past few years we've made significant
+
+11:58.386 --> 12:01.770
+progress in benchmarking our expenses to similar It
+
+12:01.840 --> 12:05.338
+organizations of like size and function. And so
+
+12:05.424 --> 12:08.570
+one of the things that you'll notice in this presentation is we are using
+
+12:08.640 --> 12:12.106
+those same categories that align with the Gartner It budget
+
+12:12.138 --> 12:15.898
+tool that we use for benchmarking. I'll start with this chart
+
+12:15.994 --> 12:19.886
+with traditional software and I'll move clockwise around that particular
+
+12:19.988 --> 12:23.518
+chart. Traditional software makes up 24%
+
+12:23.604 --> 12:27.502
+of our expenditures and that represents software that is installed physically
+
+12:27.566 --> 12:31.278
+on our equipment in our data centers. The next one is SaaS
+
+12:31.374 --> 12:34.978
+or Software as a service that makes up 16%.
+
+12:35.064 --> 12:39.062
+And SaaS is an example of a vendor provided and maintained product
+
+12:39.196 --> 12:42.840
+in the cloud. An example would be Office 365.
+
+12:44.330 --> 12:47.494
+The next 15% includes expenses related to
+
+12:47.532 --> 12:51.210
+education, training and supplies to support our operations.
+
+12:52.030 --> 12:55.430
+The next one is transport. Transport portion represents
+
+12:55.510 --> 12:59.254
+21% and that is projected expenses for mobile,
+
+12:59.302 --> 13:04.782
+fixed data and voice services, citywide pass
+
+13:04.916 --> 13:08.318
+or platform as a service along with other public cloud.
+
+13:08.404 --> 13:11.834
+And Is which is infrastructure as a service. Those represent
+
+13:11.882 --> 13:15.746
+a combined 2% and they are public cloud management and
+
+13:15.768 --> 13:19.266
+security services. In simpler terms, those are the
+
+13:19.288 --> 13:22.686
+things where we use a vendor's infrastructure and that is shared
+
+13:22.718 --> 13:26.694
+so that we get improved economies of scale and flexibility for
+
+13:26.732 --> 13:30.134
+scaling up and scaling down very quickly. Examples of that would be
+
+13:30.172 --> 13:33.702
+Azure or Amazon Web Services. Next.
+
+13:33.756 --> 13:37.490
+The 17% is allocated to traditional outsourcing
+
+13:37.570 --> 13:41.286
+and they are the fees that we pay for consultants and managed
+
+13:41.318 --> 13:44.794
+services where we may hire a company to do a service for
+
+13:44.832 --> 13:48.746
+us like communications, cabling or portions of
+
+13:48.768 --> 13:52.714
+our telecom infrastructure. And then the final category is 5% for
+
+13:52.752 --> 13:56.414
+hardware. One important point to note on that, we do buy
+
+13:56.452 --> 13:59.786
+a lot of hardware through our capital improvement budget. So it's not surprising
+
+13:59.818 --> 14:03.970
+that hardware is a lower percentage in the operating budget. Next slide.
+
+14:06.150 --> 14:09.906
+Now I would like to highlight some of the net changes in
+
+14:09.928 --> 14:13.442
+the proposed FY 23 budget over FY 22.
+
+14:13.576 --> 14:16.822
+The first item you will see again that we are
+
+14:16.876 --> 14:20.866
+consolidating resources. Five of those FTEs
+
+14:20.978 --> 14:24.806
+are coming from the Houston Health Department in the
+
+14:24.828 --> 14:28.550
+infrastructure area. Three are from Houston Public Works.
+
+14:28.620 --> 14:32.150
+That is part of our consolidation of cybersecurity for that department.
+
+14:32.230 --> 14:35.802
+Those are moving under dr. Chris Mitchell. And then the last one
+
+14:35.856 --> 14:39.114
+is in Legal, a partial consolidation. And those
+
+14:39.152 --> 14:42.798
+folks that one individual physician is moving under our infrastructure team.
+
+14:42.884 --> 14:46.270
+So together these combined are 1.34 million.
+
+14:46.420 --> 14:49.710
+Again moving into my department from another department.
+
+14:50.690 --> 14:54.190
+Secondly, you can see the hope increases for approximately
+
+14:54.270 --> 14:57.806
+846,000 increase over last year's budget.
+
+14:57.998 --> 15:01.854
+Next you'll see two net new initiatives. Those expenditure
+
+15:01.902 --> 15:05.018
+lines have been submitted for approval to the administration.
+
+15:05.214 --> 15:09.222
+These dollars support the maintenance of our open data portal and
+
+15:09.276 --> 15:12.406
+also new radio security services which
+
+15:12.428 --> 15:16.230
+is going to help us protect our radio system
+
+15:16.380 --> 15:20.010
+from malicious software and other malicious activity.
+
+15:20.830 --> 15:24.966
+And finally, the restricted accounts for Hits consist of allocations Hits
+
+15:24.998 --> 15:28.822
+receives from other departments such as Ara, Human Resources,
+
+15:28.886 --> 15:33.914
+Finance and Planning. So in summary, we have a 10.8% increase.
+
+15:34.042 --> 15:38.510
+I will highlight the key portions of that increase on the upcoming slide.
+
+15:41.410 --> 15:45.314
+So I won't go over it consolidation again, but I will move down
+
+15:45.352 --> 15:48.574
+to some of what you'll see in our budget is a realignment of expenses.
+
+15:48.622 --> 15:52.500
+So for example, Director Emo referenced Hits is the
+
+15:52.950 --> 15:56.354
+pilot department. We are always up for a challenge and being
+
+15:56.392 --> 16:00.006
+the guinea pig for the city to try things first. And so as part of
+
+16:00.028 --> 16:03.430
+that initiative, we went through and looked at one of the areas we needed to
+
+16:03.500 --> 16:07.046
+separate from one cost center into two was our end
+
+16:07.068 --> 16:10.246
+user Compute support services. So that's just dividing those into two
+
+16:10.268 --> 16:14.998
+cost centers and that will also help us with cleaner chargeback.
+
+16:15.174 --> 16:18.634
+Another example of Realignment is in the data management area.
+
+16:18.672 --> 16:21.520
+This is another one council member Kubosh asked me about.
+
+16:21.970 --> 16:25.934
+We hired the Edo, which is the Enterprise data Officer his name
+
+16:25.972 --> 16:29.870
+is Raphael Luvre. And when we did that hire,
+
+16:30.930 --> 16:34.750
+we did realign the expenses of the resources that now can report
+
+16:34.820 --> 16:38.706
+up under that separate cost center for those functions. I also want
+
+16:38.728 --> 16:42.546
+to point out that the hiring of the Edo helped us as
+
+16:42.568 --> 16:46.086
+a city accomplish one of the actions required by the
+
+16:46.108 --> 16:49.560
+Resilient Houston plan. That's action number 44.1.
+
+16:51.450 --> 16:55.330
+And then finally on Realignments we are also adjusting
+
+16:55.410 --> 16:58.954
+costs between Esignature and managed print services.
+
+16:59.072 --> 17:02.970
+So in further support of Resilient Houston and the climate action plan.
+
+17:03.120 --> 17:06.934
+We are driving print costs down and we are encouraging
+
+17:06.982 --> 17:10.342
+an increased usage of Esignature. So more
+
+17:10.416 --> 17:13.630
+electronic processing, less printing
+
+17:16.610 --> 17:19.550
+transitioning. Let's talk about Microsoft.
+
+17:20.050 --> 17:23.246
+Last August, Microsoft announced that they
+
+17:23.268 --> 17:27.266
+would be rolling out a substantive price increase across the
+
+17:27.288 --> 17:30.910
+board to all Office 365 subscribers. That's global.
+
+17:30.990 --> 17:34.706
+Okay? We were grandfathered in. That's why it did not affect my budget in
+
+17:34.728 --> 17:38.194
+FY 22. We were still under the current Enterprise
+
+17:38.242 --> 17:41.862
+agreement where the pricing was locked. However, next month
+
+17:41.916 --> 17:45.254
+I will be coming to the TTI committee to present to you the
+
+17:45.292 --> 17:49.366
+proposed new three year enterprise agreement for the city and
+
+17:49.388 --> 17:52.394
+that will incorporate the price increase as
+
+17:52.432 --> 17:55.446
+well as an upgrade in features that we will be requesting.
+
+17:55.478 --> 17:59.574
+So you'll hear a lot more from me about what's involved in those prices.
+
+17:59.702 --> 18:03.066
+But just a little preview, that's part of what
+
+18:03.248 --> 18:05.790
+is included in our FY 23 budget.
+
+18:06.210 --> 18:09.486
+And then next, we've already discussed a little bit about the job market and the
+
+18:09.508 --> 18:13.226
+great resignation. One of the things that we had to include in our budget
+
+18:13.258 --> 18:16.414
+for FY 23, we noticed the most significant
+
+18:16.462 --> 18:20.130
+attrition in our ERP group. Again, that's our SAP support
+
+18:20.200 --> 18:24.046
+function. And so we did submit as part of our budget
+
+18:24.078 --> 18:27.566
+to augment that ERP team. That addresses the concern
+
+18:27.598 --> 18:31.062
+that we're having not only with retirement and attrition, but the
+
+18:31.116 --> 18:34.386
+difficulty in the extended periods of time it's taking us to recruit,
+
+18:34.418 --> 18:38.030
+to backfill. And then finally in the cybersecurity
+
+18:38.130 --> 18:42.102
+insurance sector, this continues to diminish
+
+18:42.246 --> 18:46.086
+as more providers vacate that space. That results
+
+18:46.118 --> 18:50.406
+in an increase in premiums and it also results
+
+18:50.438 --> 18:54.126
+in a reduction of coverage. And so that's something that you
+
+18:54.148 --> 18:57.274
+will hear more from us about in some of the private briefings.
+
+18:57.402 --> 19:01.674
+And so there you have it. That is a summary of the FY 23 expenditure
+
+19:01.722 --> 19:05.690
+changes. This concludes my presentation.
+
+19:05.770 --> 19:09.058
+I do want to invite you to browse through the appendix. There are
+
+19:09.064 --> 19:12.798
+a lot of documents back there that talk about not only our organization,
+
+19:12.974 --> 19:15.278
+but also our strategic priorities,
+
+19:15.454 --> 19:18.386
+challenges with technological debt,
+
+19:18.578 --> 19:22.146
+and our FY 22 accomplishments. So with that, I'll be glad
+
+19:22.178 --> 19:26.514
+to take your questions. Thank you, Director Kent. Council Member Michael Kubosh.
+
+19:26.642 --> 19:30.534
+Thank you very much, Director Kent. I appreciate your biweekly
+
+19:30.582 --> 19:34.918
+report for the Open Finance. The cybersecurity
+
+19:35.014 --> 19:38.842
+that you have us take online is
+
+19:38.896 --> 19:42.798
+extremely helpful to people like me that I
+
+19:42.884 --> 19:46.186
+wasn't born with a mouse in my hand. So I've
+
+19:46.218 --> 19:50.110
+learned a lot from those cyber security courses.
+
+19:50.930 --> 19:54.630
+I appreciate you giving us advanced notice on rates
+
+19:54.650 --> 19:58.578
+and rate increases and things that we have to purchase because it used to just
+
+19:58.744 --> 20:02.434
+give this council shell shock when we'd see these things
+
+20:02.552 --> 20:06.114
+appear. Do we get federal grants to help
+
+20:06.152 --> 20:10.134
+us to pay for cybersecurity? Is there anything available that
+
+20:10.172 --> 20:14.022
+may help us to mitigate the cost of some of these things?
+
+20:14.156 --> 20:17.746
+Yes, sir. We do get federal grant money through UASI, and that
+
+20:17.788 --> 20:21.546
+is granted through the City's Department of
+
+20:21.568 --> 20:25.594
+homeland Security under Chief Eunuch. What we get
+
+20:25.632 --> 20:28.810
+from them is largely training. We do
+
+20:28.880 --> 20:35.490
+seek to get more money, and we have been lobbying federal legislatures,
+
+20:35.590 --> 20:39.034
+legislators, to help us have the federal
+
+20:39.082 --> 20:42.350
+government release more cybersecurity money to actually buy
+
+20:42.420 --> 20:46.174
+product and services. Now, I do expect to see
+
+20:46.212 --> 20:49.634
+that in some of the new federal bills. We have not yet
+
+20:49.672 --> 20:53.074
+seen it trickle down, but you might see that in the infrastructure bill once
+
+20:53.112 --> 20:56.726
+it's finally announced. I would like to see updated times where
+
+20:56.748 --> 21:00.642
+you give us this mandatory cybersecurity
+
+21:00.706 --> 21:04.726
+training because I think it's really needed and I
+
+21:04.748 --> 21:08.870
+really do appreciate it. Thank you. Thank you, council Member Abby Cayman.
+
+21:09.290 --> 21:12.826
+Thank you, Mayor. Pro TEM director. I think you know where
+
+21:12.848 --> 21:16.106
+my questions are going to be, are going to go towards but I
+
+21:16.128 --> 21:19.830
+think it's startling. A lot of the budget presentations
+
+21:19.910 --> 21:23.100
+we see personnel is the major cost.
+
+21:23.470 --> 21:26.766
+You don't see that with it. I think that's two things, but correct me if
+
+21:26.788 --> 21:30.314
+I'm wrong. One, we don't have a lot of personnel
+
+21:30.362 --> 21:33.854
+in the department. I work with Dr. Mitchell and you a lot. I don't know
+
+21:33.892 --> 21:37.570
+how he does everything that he does. He is incredible.
+
+21:38.230 --> 21:42.270
+But it's also the cost of this type of equipment, the technological
+
+21:42.350 --> 21:46.514
+cost, that, again, a lot of it's behind the scenes, but it's
+
+21:46.642 --> 21:49.510
+necessary to keep the city safe.
+
+21:50.570 --> 21:54.102
+I know that we cannot in a public realm discuss a lot
+
+21:54.156 --> 21:57.982
+as it relates to Homeland Security concerns,
+
+21:58.146 --> 22:04.486
+cyber concerns, but we have seen some of the more public hacks
+
+22:04.518 --> 22:08.220
+and things like that that have occurred. For example, Kronos was
+
+22:08.670 --> 22:12.682
+something that actually didn't impact us as much as it did other businesses,
+
+22:12.746 --> 22:16.270
+but still had an impact that wasn't against city infrastructure.
+
+22:16.850 --> 22:20.894
+But given the current
+
+22:21.012 --> 22:24.340
+dynamics, the war in Ukraine, other issues,
+
+22:25.750 --> 22:29.938
+where are we as a city, just generally speaking, in terms of
+
+22:30.104 --> 22:33.374
+coming into moving beyond the last century,
+
+22:33.502 --> 22:35.780
+in terms of technology upgrades here?
+
+22:37.850 --> 22:41.746
+Thank you for asking that question. I will give you a measured
+
+22:41.778 --> 22:45.542
+response. We can provide and do
+
+22:45.596 --> 22:48.794
+provide a lot of detailed information to
+
+22:48.832 --> 22:52.762
+you, city council members, and obviously to Mayor Turner that are
+
+22:52.816 --> 22:57.462
+very specific about what the city faces from a cybersecurity
+
+22:57.526 --> 23:01.354
+perspective. What I will say publicly
+
+23:01.482 --> 23:05.774
+is that with
+
+23:05.812 --> 23:09.242
+your support, we have been making tremendous
+
+23:09.306 --> 23:13.070
+strides. One of the things that you will see spoken
+
+23:13.150 --> 23:16.962
+about publicly with anyone talking about
+
+23:17.016 --> 23:20.542
+cybersecurity is the need for a layered defense
+
+23:20.606 --> 23:24.274
+strategy. And so no matter which
+
+23:24.312 --> 23:27.602
+entity you talk to, government or private sector alike,
+
+23:27.666 --> 23:31.286
+they will all tell you we're always going to need to
+
+23:31.308 --> 23:35.302
+do more. Okay? And so what we need
+
+23:35.356 --> 23:39.166
+you to understand is much to Council Member Kubosh's
+
+23:39.218 --> 23:42.614
+comment, that it takes everybody, it takes the employees
+
+23:42.662 --> 23:46.202
+to be security conscious, and it takes us to put
+
+23:46.256 --> 23:49.626
+many layers of defense in there simply to have
+
+23:49.648 --> 23:52.986
+a fighting chance at slowing down the adversary. I could
+
+23:53.008 --> 23:55.920
+be put back in queue. Go ahead,
+
+23:57.010 --> 24:00.430
+last one. You're the only one. All right, I'll hurry up because I know
+
+24:00.500 --> 24:04.514
+people want a quick break for lunch, if we can. Not yet,
+
+24:04.712 --> 24:07.650
+no, keep driving.
+
+24:09.750 --> 24:13.234
+I was just at a roundtable conversation this morning
+
+24:13.432 --> 24:17.186
+with FEMA. So we're talking about the federal dollars that we need
+
+24:17.208 --> 24:21.090
+to draw down upon. And we were talking with different colleagues
+
+24:21.170 --> 24:23.814
+around the country about what keeps us up at night,
+
+24:23.932 --> 24:26.994
+and cybersecurity redundancy is what keeps
+
+24:27.042 --> 24:30.954
+me up at night. But also, Council Member
+
+24:30.992 --> 24:34.762
+Peck and I talk a lot about this other council members, our CAD system,
+
+24:34.896 --> 24:38.522
+other needs that are just so high
+
+24:38.576 --> 24:42.730
+in terms of price tag that we as a city cannot afford without those investments.
+
+24:42.810 --> 24:46.286
+We have CAD. That is a need. Are there other needs that we should be
+
+24:46.308 --> 24:49.680
+aware of right now as it relates to those
+
+24:51.570 --> 24:55.002
+It assets
+
+24:55.066 --> 24:58.882
+that we can speak about publicly? Yes. If you would
+
+24:58.936 --> 25:02.142
+flip to page 20, which is in the appendix section.
+
+25:02.206 --> 25:05.990
+There's a chart there that gives you a feel for the scale.
+
+25:06.650 --> 25:10.162
+When we talk about technical debt or technological
+
+25:10.226 --> 25:14.214
+debt, we're talking about systems that no
+
+25:14.252 --> 25:18.478
+different than what Director Haddock spoke about with her infrastructure
+
+25:18.594 --> 25:23.174
+for water and sewer. The city has infrastructure,
+
+25:23.302 --> 25:27.110
+both hardware and software applications that we have to maintain.
+
+25:27.190 --> 25:31.278
+And when you don't replace those often enough, you create
+
+25:31.364 --> 25:34.714
+a vulnerability, which translates
+
+25:34.762 --> 25:38.094
+to risk. Those equipments either get old and
+
+25:38.132 --> 25:42.654
+they don't function as well as they used to, or they are
+
+25:42.692 --> 25:46.206
+no longer supported by the manufacturer. And therefore, that translates into a cyber
+
+25:46.238 --> 25:49.378
+risk. So this chart, that's worth looking at. If you
+
+25:49.384 --> 25:52.850
+look on the right hand side of the page, it shows you what our five
+
+25:52.920 --> 25:56.466
+year citywide CIP is. The only
+
+25:56.488 --> 25:59.314
+thing not included in that is the Houston Airport systems.
+
+25:59.362 --> 26:02.402
+Separate CIP and Houston Public Works. Separate CIP.
+
+26:02.466 --> 26:06.406
+But otherwise, that number of 39,000,500 is
+
+26:06.508 --> 26:10.346
+the five year number for years 22 through 26 for
+
+26:10.368 --> 26:13.914
+capital investment in technology. The left hand side
+
+26:13.952 --> 26:17.750
+of the column is only the top six projects
+
+26:17.830 --> 26:21.118
+that we need funding for. Really? Four and a
+
+26:21.124 --> 26:25.002
+half of those six are public safety technology related.
+
+26:25.146 --> 26:28.526
+So in terms of what is needed, the city
+
+26:28.628 --> 26:32.542
+needs more spending capacity to deal with
+
+26:32.596 --> 26:36.126
+public safety technology equipment. And the ones that I've listed
+
+26:36.158 --> 26:38.450
+there are HPD Radio refresh,
+
+26:39.270 --> 26:42.846
+the HPD Records Management System network refresh,
+
+26:42.878 --> 26:46.406
+which I'm saying is partially public safety related CAD, which you
+
+26:46.428 --> 26:50.086
+just asked about $17 million. The only one that
+
+26:50.108 --> 26:54.054
+is wholly not public safety related is the SAPS for
+
+26:54.092 --> 26:57.654
+Hana upgrade. But at the top, there is
+
+26:57.692 --> 27:01.606
+CSMART, where we need to do some continued technology refresh.
+
+27:01.718 --> 27:05.002
+And that does have some public safety implications with that system
+
+27:05.056 --> 27:08.874
+as well. So these monies, you can tell the
+
+27:08.912 --> 27:12.926
+dramatic skewing of what's available versus what
+
+27:12.948 --> 27:16.126
+is needed just for the top six. No,
+
+27:16.148 --> 27:19.326
+and I appreciate that highlight. And just for those in
+
+27:19.348 --> 27:22.938
+the public that are listening, when we talk about records Management systems
+
+27:22.954 --> 27:26.862
+with HPD. That sounds very basic, but there's certain data that we cannot
+
+27:26.926 --> 27:31.214
+even track right now, including when a crime involves
+
+27:31.262 --> 27:35.582
+a gun, whether that gun was stolen, whether it was obtained
+
+27:35.646 --> 27:38.754
+legally. We cannot track any of that right now,
+
+27:38.952 --> 27:42.882
+even though we're dealing with astronomical levels of gun violence. So all these basic
+
+27:42.946 --> 27:46.040
+things, right, that we think as a city we should be able to do,
+
+27:46.490 --> 27:50.054
+we are having challenges with. So I just appreciate your
+
+27:50.092 --> 27:53.942
+department. Again, so much of it goes back to Public Safety.
+
+27:54.006 --> 27:56.794
+I don't know how you do and your team do all the things that you
+
+27:56.832 --> 28:00.902
+do do, but recognizing the budgetary
+
+28:00.966 --> 28:04.170
+limitations that we are continuing to face right now.
+
+28:04.320 --> 28:07.486
+Thank you. So, Director Cant, one thing
+
+28:07.508 --> 28:11.646
+struck me and one thing only in your budget. So 22 to
+
+28:11.668 --> 28:16.626
+23, you have an interdepartmental credit
+
+28:16.728 --> 28:20.210
+for 1.3 million. Without that, you're 34 million
+
+28:20.280 --> 28:22.420
+less than what you spent last year.
+
+28:23.190 --> 28:26.718
+Right. So you had 88 you -1.3 you're at
+
+28:26.744 --> 28:30.930
+98. Because you had interdepartmental
+
+28:31.010 --> 28:34.502
+consolidations of FTE. Can you put some color around that?
+
+28:34.556 --> 28:37.906
+Because I look at it and I go at 1.34 million.
+
+28:38.028 --> 28:41.882
+That's 18 employees at $75,000.
+
+28:42.016 --> 28:46.038
+So I'm assuming we're going to see the appropriate
+
+28:46.214 --> 28:49.210
+debit from Public Works,
+
+28:49.280 --> 28:52.350
+which we didn't see because I just looked through their notes.
+
+28:52.770 --> 28:55.870
+Legal and HHD,
+
+28:57.890 --> 29:01.294
+you're getting the people, but the flow of funds isn't following you.
+
+29:01.332 --> 29:04.846
+It is following you. But the appropriate debit isn't coming out of their
+
+29:04.868 --> 29:08.846
+department's expense. That's right. Because they continue to pay for those resources
+
+29:08.878 --> 29:12.766
+that are dedicated to them. So what is a little bit confusing about we added
+
+29:12.798 --> 29:16.190
+1.3 to your budget on the increase.
+
+29:16.270 --> 29:19.986
+Yes. What is confusing about the way the revolving funds
+
+29:20.018 --> 29:23.042
+work is the money has to be on both sides of the fence.
+
+29:23.186 --> 29:26.982
+So for me to have the control of those
+
+29:27.036 --> 29:30.934
+positions and the money to fund them, it has
+
+29:30.972 --> 29:34.090
+to show up in my revolving fund budget. It also
+
+29:34.160 --> 29:37.658
+has to show up on their side of the house in their restricted account.
+
+29:37.824 --> 29:41.290
+And so when I charge them back, it goes back.
+
+29:41.360 --> 29:44.990
+So I'm looking for I see your credit of 1.3.
+
+29:45.060 --> 29:48.926
+I don't see their debit of 1.3 or whatever theirs is for their individual
+
+29:49.108 --> 29:52.286
+department, but their debit will be in their restricted account. In the
+
+29:52.308 --> 29:56.206
+restricted account. So all of our expenses are budget within the department's
+
+29:56.238 --> 29:59.874
+restricted accounts. So that slide where like on our
+
+29:59.912 --> 30:03.678
+slide number 15, where you have a list of all the inner
+
+30:03.694 --> 30:06.750
+fund restrictive accounts, we would charge them back.
+
+30:06.920 --> 30:10.566
+Okay. Why are you assuming I'm going to say 75,000.
+
+30:10.668 --> 30:13.942
+That's 18 people. Why are you assuming 18 people into your
+
+30:13.996 --> 30:17.886
+department? What's going on? We're not assuming
+
+30:17.938 --> 30:21.386
+18 individuals who we're absorbing nine, plus their
+
+30:21.568 --> 30:25.174
+hope increases. Okay, so you're absorbing their salary?
+
+30:25.302 --> 30:29.370
+Yes, only their salary, but not their reporting accountability.
+
+30:30.030 --> 30:33.962
+We're absorbing their reporting reporting structure as well.
+
+30:34.096 --> 30:37.226
+So who do they report to? Do they report to hits.
+
+30:37.418 --> 30:40.686
+Yes. In fact, that's one of the reasons why we do that, because if we
+
+30:40.708 --> 30:44.674
+leave the money exclusively in their budget, where they have the ability to choose
+
+30:44.712 --> 30:48.340
+to spend it on something else, I love the fact that
+
+30:48.870 --> 30:52.818
+your department is more of a centralized function. I hate decentralized function
+
+30:52.904 --> 30:56.686
+organizations. That's a massive screw up. You're just waiting
+
+30:56.718 --> 30:59.782
+for some bad things to happen. So I'm a big fan of what you did.
+
+30:59.836 --> 31:03.058
+Okay, great. Because I believe they should be reporting to you even though they're
+
+31:03.074 --> 31:07.090
+housed in another department. But I just wanted to see where they corresponded.
+
+31:07.170 --> 31:10.466
+Like Mayor Turner says, hey, you can raise the budget,
+
+31:10.498 --> 31:14.060
+but tell me where you're going to get the money. Well, you raised your money
+
+31:14.590 --> 31:17.846
+by 1.3 million, and you didn't
+
+31:17.878 --> 31:21.306
+tell me where it came from, because I looked back on one of the departments
+
+31:21.338 --> 31:24.986
+that already presented. The other two are later, and they didn't have the corresponding
+
+31:25.018 --> 31:28.186
+debit. It's restricted.
+
+31:28.298 --> 31:31.866
+So we'll ask Legal and we'll ask Houston
+
+31:31.898 --> 31:35.342
+Health when they come. So. Thank you, council Member Sally Alcorn.
+
+31:35.406 --> 31:38.786
+Are there some other departments that you think would benefit from
+
+31:38.888 --> 31:42.660
+being consolidated in, or have you swept everybody in that you need to?
+
+31:44.230 --> 31:46.840
+We definitely have that's a loaded question.
+
+31:48.010 --> 31:51.910
+There are definitely opportunities, and some of those opportunities are already
+
+31:51.980 --> 31:55.846
+in discussion with those directors. I wouldn't want to say that
+
+31:55.868 --> 31:59.834
+publicly, but there are definitely opportunities for that.
+
+31:59.872 --> 32:03.306
+Yes. Great. Thanks. You all
+
+32:03.328 --> 32:06.586
+do a great job. Thank you. Day in and day out. I appreciate what you
+
+32:06.608 --> 32:10.942
+do. I'm sorry. We have four public
+
+32:10.996 --> 32:13.790
+speakers. We'll start out with Mr. Doug Smith,
+
+32:15.330 --> 32:16.830
+star six. Doug,
+
+32:20.370 --> 32:23.630
+can you hear me? Yes, sir. Yes.
+
+32:23.700 --> 32:27.070
+Okay, good. To follow up on the last comment,
+
+32:27.230 --> 32:30.546
+relative to are you going to when you look through
+
+32:30.568 --> 32:33.620
+the budget, you see lots of departments that have what I would call
+
+32:34.550 --> 32:37.830
+hit related expenses, and I guess you're in the process
+
+32:37.900 --> 32:40.982
+of trying to sweep all of those in as
+
+32:41.036 --> 32:44.786
+much as possible. One that just came from this morning is Houston
+
+32:44.818 --> 32:48.446
+Public Works. They show $20 million for computer related
+
+32:48.498 --> 32:52.054
+expenses. So I'm glad to hear you're in the process of trying to rope
+
+32:52.102 --> 32:54.460
+everybody in. And one final question.
+
+32:55.150 --> 32:58.780
+Why did the salary for HFD support account
+
+32:59.630 --> 33:03.470
+50 00:10 increased by 50%?
+
+33:03.620 --> 33:07.246
+And also regarding that, do you provide any kind of similar support to
+
+33:07.268 --> 33:10.702
+the Houston Police Department? Okay.
+
+33:10.756 --> 33:14.514
+Mr. Smith, the reason why you see the increase in the HFD personnel once
+
+33:14.552 --> 33:18.654
+we've gone through the exercise of looking at the EIS
+
+33:18.782 --> 33:22.066
+compute call center, basically, we took those individuals that were
+
+33:22.088 --> 33:25.522
+dedicated to HFD and moved those to the HFD call
+
+33:25.576 --> 33:29.126
+center. So that's why you see that increase in personnel. So the
+
+33:29.148 --> 33:32.806
+support level has not changed, but we did move the position,
+
+33:32.908 --> 33:35.830
+so therefore the dollars will be in the correct funding structure.
+
+33:36.970 --> 33:40.266
+Okay. Do you do similar support for Houston Police Department as
+
+33:40.288 --> 33:42.300
+well? No, we. Do not.
+
+33:44.110 --> 33:47.578
+The Houston Police Department is what we consider to
+
+33:47.584 --> 33:50.734
+be a Federated It organization, which means they
+
+33:50.772 --> 33:54.798
+have a Chief Technology Officer and a sizable It
+
+33:54.884 --> 33:58.046
+organization. So what my department provides to
+
+33:58.068 --> 34:01.758
+HPD are the Enterprise services, which is a
+
+34:01.764 --> 34:05.538
+whole lot of things, but there are many services that they still do
+
+34:05.624 --> 34:09.634
+themselves out of that technology budget. So they will have both a
+
+34:09.672 --> 34:13.234
+restricted account chargeback from my department as well
+
+34:13.272 --> 34:16.102
+as a separate It budget for their own.
+
+34:16.236 --> 34:19.654
+Thank you. Mr. Why do they have a mr.
+
+34:19.692 --> 34:21.270
+Oliver. Jason Oliver.
+
+34:24.330 --> 34:25.910
+Thanks for interrupting.
+
+34:27.710 --> 34:31.802
+Thank you. Hi. Thank you all
+
+34:31.936 --> 34:36.300
+for the presentation. The budget was amended last year,
+
+34:36.830 --> 34:40.766
+item 6.34, to include an online portal for
+
+34:40.788 --> 34:44.318
+people to sign up for public session. I wanted to check in on
+
+34:44.404 --> 34:48.074
+if that has been implemented or if we can get a target
+
+34:48.122 --> 34:49.120
+completion date.
+
+34:56.440 --> 34:59.864
+We were just conferring, Mr. Oliver. I'm not sure that
+
+34:59.902 --> 35:03.496
+that particular amendment was actually approved, but what
+
+35:03.518 --> 35:07.224
+I can tell you, we do have a project underway that is currently in
+
+35:07.262 --> 35:10.904
+the planning phase. It won't be implemented until later in FY
+
+35:10.952 --> 35:14.924
+23, but that is to upgrade the system that the
+
+35:14.962 --> 35:18.216
+city council uses for City council agenda.
+
+35:18.328 --> 35:21.996
+And so our thought is that we would be using that same platform to
+
+35:22.018 --> 35:25.504
+allow the digital sign up of speakers. Now, one thing
+
+35:25.542 --> 35:28.848
+in addition to that that we have also been doing is to
+
+35:29.014 --> 35:33.276
+utilize tool sets that we already have to encourage the city secretary's
+
+35:33.308 --> 35:36.912
+office to leverage things like teams and SharePoint that
+
+35:36.966 --> 35:40.628
+as people sign up. That can be done on those existing tools, but we
+
+35:40.634 --> 35:44.756
+do have plans to enhance it for the future. Okay, and then can
+
+35:44.778 --> 35:47.620
+you share more about what on page eleven,
+
+35:48.040 --> 35:51.256
+the open data portal support means, and then how often we
+
+35:51.278 --> 35:54.680
+can expect to see updates in the future? I also want to say thank you
+
+35:54.750 --> 35:59.176
+all. After last year, you all updated and
+
+35:59.198 --> 36:02.900
+made the open data portal accessible again, which was really appreciated.
+
+36:02.980 --> 36:06.156
+So thank you for that. We're just checking in about what that means. So you
+
+36:06.178 --> 36:09.756
+just answered my question, your own question. So we were having a lot
+
+36:09.778 --> 36:13.344
+of problems with that open data portal where, if you may recall, it would go
+
+36:13.382 --> 36:16.528
+offline. That is a legacy application
+
+36:16.694 --> 36:19.984
+that we needed some additional support. And so the money
+
+36:20.022 --> 36:23.936
+that we built in as an ad to our budget was to outsource that
+
+36:23.958 --> 36:27.188
+additional support until we could simply redesign it.
+
+36:27.274 --> 36:30.644
+So the redesign of that open data portal is planned for FY 23
+
+36:30.682 --> 36:35.008
+as well. Thank you. Doing that support I'm
+
+36:35.024 --> 36:38.436
+sorry, who's offering that support? How is
+
+36:38.458 --> 36:41.928
+that working? I don't recall the name of the vendor off the
+
+36:41.934 --> 36:45.176
+top of my head. I can get back to you offline about that, but it
+
+36:45.198 --> 36:49.096
+is a vendor consultant that is assisting us with that. Got you. Thank you,
+
+36:49.278 --> 36:53.260
+Ms. Planning. As Ms. Planning walks up, so are we moving away from Novus
+
+36:54.960 --> 36:58.636
+there is a project to upgrade Novus. So what
+
+36:58.658 --> 37:02.396
+the solution will be is yet to be determined whether it continues
+
+37:02.428 --> 37:06.464
+to be the evolution of Novus or another product. Thank you.
+
+37:06.662 --> 37:08.720
+Hey, thank you for your presentation.
+
+37:09.540 --> 37:13.136
+Lots of helpful explanations in there. I have two questions for
+
+37:13.158 --> 37:17.392
+you. I noticed almost 60% of the top technological
+
+37:17.456 --> 37:20.864
+needs you listed, I believe it was in the appendix,
+
+37:20.992 --> 37:24.832
+belong to HPD improvements. And I was curious as to how these priorities
+
+37:24.896 --> 37:28.456
+were made, especially after you explained that HPD kind of has
+
+37:28.478 --> 37:32.452
+their own It. And then what are other priorities
+
+37:32.516 --> 37:36.084
+that aren't listed that you would consider a high priority?
+
+37:36.212 --> 37:39.976
+And then the second question is management consulting services
+
+37:40.078 --> 37:43.340
+has increased dramatically from last fiscal year, now 3 million
+
+37:43.410 --> 37:46.700
+from about 1 million. And what is the reason for that jump?
+
+37:48.240 --> 37:51.344
+Okay, so Will is going to help keep me straight on the questions in order,
+
+37:51.382 --> 37:54.812
+but let's talk first about this chart, the technological debt.
+
+37:54.876 --> 37:58.880
+Okay, so HPD participates along
+
+37:58.950 --> 38:02.684
+with all the other city departments, excluding airports
+
+38:02.732 --> 38:05.424
+and public works in the citywide,
+
+38:05.472 --> 38:10.048
+technology, CIP. So these are all investments that would be capital projects
+
+38:10.144 --> 38:13.428
+and they are a part of that solution pool or the
+
+38:13.434 --> 38:17.072
+group that considers those. The considerations
+
+38:17.136 --> 38:20.292
+for why are these systems on the list and why are they priority
+
+38:20.436 --> 38:23.992
+one, safe Houston and public safety is clearly Mayor Turner's top
+
+38:24.046 --> 38:27.464
+priority. And one of the things that we look at
+
+38:27.502 --> 38:31.564
+when we evaluate the prioritization of It spend is
+
+38:31.602 --> 38:34.984
+where there is risk. And in these cases, these equipment,
+
+38:35.032 --> 38:38.584
+these systems are all end of life and they pose risk
+
+38:38.632 --> 38:40.780
+to the city and the police department.
+
+38:42.820 --> 38:44.320
+Thank you, Mr. Butler.
+
+38:47.300 --> 38:49.170
+I don't know how to get back to her.
+
+38:50.340 --> 38:51.090
+Okay.
+
+38:54.500 --> 38:57.908
+Hi, good afternoon. I think you guys do an excellent job. I've just got
+
+38:57.914 --> 39:01.380
+a series of questions I'll use in my three minutes and then you can respond.
+
+39:02.520 --> 39:06.064
+Can you rank your top three priorities?
+
+39:06.192 --> 39:09.880
+And you did to finish up that conversation you just started that
+
+39:09.950 --> 39:13.464
+give you the best return on investment, dollar wise for every
+
+39:13.502 --> 39:18.728
+dollar you spend? The next question is basically,
+
+39:18.814 --> 39:22.296
+how are you guys going to do more with less? Because that's the way you've
+
+39:22.328 --> 39:25.628
+painted this picture. It's impressive. I just want to know how you're going to do
+
+39:25.634 --> 39:30.312
+the magic trick. The other question is, has the city's IDT
+
+39:30.376 --> 39:34.336
+department been affected by the pandemic and the supply chain in slowing down
+
+39:34.438 --> 39:38.876
+or hindering either major upgrades or rollouts
+
+39:38.908 --> 39:42.016
+or updates that you have? Also, you said you
+
+39:42.038 --> 39:46.304
+do travel and connect with other cities. Does the city of Houston rank statewide,
+
+39:46.352 --> 39:49.716
+regionally and nationally well and does your
+
+39:49.738 --> 39:53.168
+budget reflect managing city the size of Houston?
+
+39:53.264 --> 39:56.676
+And lastly, very broad question, how has it
+
+39:56.778 --> 39:59.130
+priority shifted for you and why?
+
+40:02.380 --> 40:05.416
+May I start to answer those? I don't think I can get to all of
+
+40:05.438 --> 40:10.016
+them. Okay, so can you give us Readers
+
+40:10.068 --> 40:14.044
+Digest version? Okay, so question number
+
+40:14.082 --> 40:16.968
+one top three priorities based on ROI.
+
+40:17.144 --> 40:20.796
+We definitely focus on things that pose risk, because if we
+
+40:20.818 --> 40:24.264
+don't deal with those, they present themselves as much larger,
+
+40:24.312 --> 40:27.884
+much more expensive problems to fix after the fact. Okay, so cyber
+
+40:27.932 --> 40:31.472
+is a great example, but so is aging equipment. The next
+
+40:31.526 --> 40:34.230
+one, how are we going to do more than with less?
+
+40:34.760 --> 40:38.224
+That is a big challenge. Thankfully, we hire
+
+40:38.272 --> 40:41.830
+people who like challenges. But in terms of
+
+40:42.200 --> 40:46.368
+getting the best bang for the buck, we look to identify
+
+40:46.464 --> 40:50.104
+solutions and platforms that solve multiple problems. And so
+
+40:50.142 --> 40:53.828
+you will see us identifying, particularly in the areas of applications
+
+40:53.924 --> 40:57.764
+that can meet multiple departments needs. We talked about infor earlier.
+
+40:57.812 --> 41:01.370
+We have several departments using that permitting and inspection platform.
+
+41:01.840 --> 41:05.576
+Supply chain? Yes. It's a huge problem. There are certain pieces
+
+41:05.608 --> 41:09.116
+of equipment. I won't name the manufacturer, but we have been
+
+41:09.138 --> 41:12.252
+waiting for things that normally we would get in one to two months is taking
+
+41:12.306 --> 41:14.690
+more than a year. It's a huge problem.
+
+41:15.300 --> 41:18.624
+Priority shift. How have
+
+41:18.662 --> 41:22.304
+my priorities shifted since the Pandemic? We have
+
+41:22.342 --> 41:26.480
+definitely been pushing city departments to accelerate
+
+41:26.560 --> 41:31.364
+their digital transformation. One of the things I'm very proud of from
+
+41:31.402 --> 41:34.724
+the city's infrastructure standpoint, and even our
+
+41:34.762 --> 41:39.044
+applications portfolio, many of those tools were already there.
+
+41:39.162 --> 41:43.072
+What we needed to do is help departments with the business transformation
+
+41:43.136 --> 41:46.864
+to be able to really embrace operating digitally
+
+41:46.912 --> 41:49.900
+all the way to the end. Customer out in the field.
+
+41:50.050 --> 41:53.944
+Thank you. You're welcome. Thank you. And that concludes
+
+41:53.992 --> 41:57.404
+this part. And, Director Ken, as your neighbor of mine, my son came
+
+41:57.442 --> 42:00.830
+over and messed up my printer. So can you come over later on?
+
+42:01.680 --> 42:03.150
+I'll see what I can do.
