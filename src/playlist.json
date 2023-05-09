@@ -1,5 +1,26 @@
 [
-    {
+  {
+    "title": "2023-05-02-Council_Meeting_May_02_2023_May_03_2023_",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-05-02-Council_Meeting_May_02_2023_May_03_2023_",
+    "id": "6kdv9gb636-61fb-4af2-806b-05a1de07d5d5",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-02-Council_Meeting_May_02_2023_May_03_2023_.mp4",
+    "clipName": "houstontx-2023-05-02-Council_Meeting_May_02_2023_May_03_2023_.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-02-Council_Meeting_May_02_2023_May_03_2023_.mp4"
+  },
+  {
+    "title": "2023-05-09-Council_Meeting_May_09_2023_May_10_2023_",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-05-09-Council_Meeting_May_09_2023_May_10_2023_",
+    "id": "6kdv94s5yu-791d-426d-8a52-798314564d4d",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-09-Council_Meeting_May_09_2023_May_10_2023_.mp4",
+    "clipName": "houstontx-2023-05-09-Council_Meeting_May_09_2023_May_10_2023_.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-09-Council_Meeting_May_09_2023_May_10_2023_.mp4"
+  },
+
+  {
       "title": "2022-05-11-FY_2023_Budget_Workshop_Finance",
       "collection": "2022 Budget Workshops for FY2023",
       "slug": "2022-05-11-FY_2023_Budget_Workshop_Finance",

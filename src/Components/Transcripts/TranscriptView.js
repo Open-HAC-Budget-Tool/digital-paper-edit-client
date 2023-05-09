@@ -22,7 +22,7 @@ const TranscriptViewer = React.lazy(() => import("../lib/TranscriptViewer"));
 
 const projectId = null;
 
-const playlistItems = items.reverse();
+const playlistItems = items;//.reverse();
 
 class TranscriptView extends Component {
   constructor(props) {
