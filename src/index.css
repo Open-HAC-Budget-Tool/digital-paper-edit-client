@@ -200,6 +200,12 @@ code {
   border-color: var(--accent-color);
 }
 
+.button.active {
+  background-color: var(--accent-color);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
 /* SIDE BUTTONS */
 .side-buttons {
   position: fixed;
@@ -286,6 +292,7 @@ code {
 
 .sidebar {
   flex: 33%;
+  min-width: 540px;
 }
 
 .transcripts {

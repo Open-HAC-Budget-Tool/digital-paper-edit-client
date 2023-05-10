@@ -17,6 +17,7 @@ class Playlist extends React.Component {
       title: "",
       description: "",
       itemId: null,
+      filter: 'All',
     };
   }
 
@@ -38,7 +39,25 @@ class Playlist extends React.Component {
             style={{ height: "50vh", overflowY: "scroll" }}
             // variant="flush"
           >
-            {this.props.items.map((item) => (
+            {this.props.items.filter((item) => {
+              if (this.props.filter === 'All') {
+                return true
+              }
+
+              if (this.props.filter === 'City Council') {
+                return item.collection === "2023 City Council Meetings"
+              }
+
+              if (this.props.filter === 'FY23 Budget Workshops') {
+                return item.collection === "2022 Budget Workshops for FY2023"
+              }
+
+              if (this.props.filter === 'FY22 Budget Workshops') {
+                return item.collection === "2021 Budget Workshops for FY2022"
+              }
+              
+              return true
+            }).map((item) => (
               <SimpleItem
                 key={item.id}
                 id={item.id}
@@ -46,6 +65,8 @@ class Playlist extends React.Component {
                 title={item.title}
                 presentation={item.presentation}
                 proposal={item.proposal}
+                agenda={item.agenda}
+                original={item.original}
                 description={item.description}
                 showLinkPath={this.showLinkPath}
               />

@@ -20,15 +20,25 @@ class SimpleItem extends Component {
   openProposal = () => {
     window.open(this.props.proposal)
   }
+
+  openAgenda = () => {
+    window.open(this.props.agenda)
+  }
+
+  openOriginal = () => {
+    window.open(this.props.original)
+  }
   
   render() {
     return (
       <LinkContainer to={this.showLinkPath()} style={{ cursor: 'pointer' }}>
         <ListGroup.Item action>
           <h6>{this.props.title}</h6>
-          {(this.props.presentation || this.props.proposal) && <div className='buttons'>
+          {(this.props.presentation || this.props.proposal || this.props.agenda || this.props.original) && <div className='buttons'>
             {this.props.presentation && <button className='button' onClick={this.openPresentation}>Presentation</button>}
             {this.props.proposal && <button className='button' onClick={this.openProposal}>Proposal</button>}
+            {this.props.agenda && <button className='button' onClick={this.openAgenda}>Agenda</button>}
+            {this.props.original && <button className='button' onClick={this.openOriginal}>Original</button>}
           </div>}
         </ListGroup.Item>
       </LinkContainer>

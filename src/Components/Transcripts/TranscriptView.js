@@ -16,8 +16,7 @@ import { Redirect } from "react-router-dom";
 
 import items from "../../playlist.json";
 import Playlist from "../Playlist/Playlist.js";
-window.ApiWrapper = ApiWrapper
-console.log('hello')
+
 const TranscriptViewer = React.lazy(() => import("../lib/TranscriptViewer"));
 
 const projectId = null;
@@ -35,6 +34,7 @@ class TranscriptView extends Component {
       transcriptTitle: "",
       savedNotification: null,
       status: null,
+      filter: 'All',
     };
     this.transcriptViewerRef = React.createRef();
   }
@@ -52,7 +52,11 @@ class TranscriptView extends Component {
     });
     this.updateTranscript(this.props.match.params.transcriptId);
   };
-
+  setFilter = (filter) => {
+    return () => {
+      this.setState({ filter })
+    }
+  };
   updateTranscript = (transcriptId) => {
     if (!(transcriptId || this.state.transcriptId)) {
       return;
@@ -105,6 +109,12 @@ class TranscriptView extends Component {
       <>
         <div className="navbar" bg="dark" variant="dark">
           <h1 className="navbar-title">#HouBudget Workshops Watcher</h1>
+          <div className='buttons' style={{marginRight: '140px'}}>
+            <button className={`button ${this.state.filter === 'All' && 'active'}`} onClick={this.setFilter('All')}>All</button>
+            <button className={`button ${this.state.filter === 'City Council' && 'active'}`} onClick={this.setFilter('City Council')}>City Council</button>
+            <button className={`button ${this.state.filter === 'FY23 Budget Workshops' && 'active'}`} onClick={this.setFilter('FY23 Budget Workshops')}>FY23 Budget Workshops</button>
+            <button className={`button ${this.state.filter === 'FY22 Budget Workshops' && 'active'}`} onClick={this.setFilter('FY22 Budget Workshops')}>FY22 Budget Workshops</button>
+          </div>
           {/* <Nav className="mr-auto"></Nav> */}
           {/* <Nav>
             <small className="text-light text-right">
@@ -147,7 +157,7 @@ class TranscriptView extends Component {
                 autoSaveContentType={"digitalpaperedit"}
                 status={this.state.status}
               >
-                <Playlist items={playlistItems} />
+                <Playlist items={playlistItems} filter={ this.state.filter }/>
               </TranscriptViewer>
             </Suspense>
           }
