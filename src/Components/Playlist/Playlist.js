@@ -48,6 +48,10 @@ class Playlist extends React.Component {
                 return item.collection === "2023 City Council Meetings"
               }
 
+              if (this.props.filter === 'FY24 Budget Workshops') {
+                return item.collection === "2022 Budget Workshops for FY2023"
+              }
+
               if (this.props.filter === 'FY23 Budget Workshops') {
                 return item.collection === "2022 Budget Workshops for FY2023"
               }

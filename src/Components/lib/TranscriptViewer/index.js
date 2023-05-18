@@ -738,6 +738,12 @@ function SlateTranscriptEditor(props) {
           />
           
         <div className="transcripts">
+          <p style={{marginBottom: '10px'}}>
+            Double click on a word to jump to the corresponding point in the media.
+          </p>
+          <p style={{marginBottom: '10px'}}>
+            To find key words in transcript, click on "Edit" and "Find" or "Find in Page" in your browser's toolbar.
+          </p>
           {value.length !== 0 ? (
             <>
               <Paper elevation={3}>

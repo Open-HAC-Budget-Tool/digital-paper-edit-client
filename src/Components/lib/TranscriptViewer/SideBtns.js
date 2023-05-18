@@ -35,7 +35,11 @@ function SideBtns({
     <div className="side-buttons">
         <Tooltip
           title={
-            " Double click on a word to jump to the corresponding point in the media"
+            `
+            Double click on a word to jump to the corresponding point in the media.
+
+            To find key words in transcript, click on "Edit" and "Find" or "Find in Page" in your browser's toolbar.
+            `
           }
         >
           <button color="primary">

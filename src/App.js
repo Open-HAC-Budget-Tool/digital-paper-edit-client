@@ -57,6 +57,7 @@ class App extends Component {
               <Route exact path="/" component={TranscriptView} />
               <Route exact path="/fy22/:transcriptId" component={TranscriptView} />
               <Route exact path="/fy23/:transcriptId" component={TranscriptView} />
+              <Route exact path="/fy24/:transcriptId" component={TranscriptView} />
               <Route exact path="/city-council-2023/:transcriptId" component={TranscriptView} />
               <Route component={NoMatch} />
             </Switch>
