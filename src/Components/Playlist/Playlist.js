@@ -22,6 +22,9 @@ class Playlist extends React.Component {
   }
 
   showLinkPath = (id) => {
+    if (id.includes('FY_2024')) {
+      return `/fy24/${id}`
+    }
     if (id.includes('FY_2023')) {
       return `/fy23/${id}`
     }
@@ -49,7 +52,7 @@ class Playlist extends React.Component {
               }
 
               if (this.props.filter === 'FY24 Budget Workshops') {
-                return item.collection === "2022 Budget Workshops for FY2023"
+                return item.collection === "2023 Budget Workshops for FY2024"
               }
 
               if (this.props.filter === 'FY23 Budget Workshops') {

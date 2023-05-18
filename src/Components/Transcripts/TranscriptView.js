@@ -111,8 +111,8 @@ class TranscriptView extends Component {
           <h1 className="navbar-title">#HouBudget Workshops Watcher</h1>
           <div className='buttons' style={{marginRight: '140px'}}>
             <button className={`button ${this.state.filter === 'All' && 'active'}`} onClick={this.setFilter('All')}>All</button>
+            <button className={`button ${this.state.filter === 'FY24 Budget Workshops' && 'active'}`} onClick={this.setFilter('FY24 Budget Workshops')}>FY24 Budget Workshops</button>
             <button className={`button ${this.state.filter === 'City Council' && 'active'}`} onClick={this.setFilter('City Council')}>City Council</button>
-            {/* <button className={`button ${this.state.filter === 'FY24 Budget Workshops' && 'active'}`} onClick={this.setFilter('FY24 Budget Workshops')}>FY24 Budget Workshops</button> */}
             <button className={`button ${this.state.filter === 'FY23 Budget Workshops' && 'active'}`} onClick={this.setFilter('FY23 Budget Workshops')}>FY23 Budget Workshops</button>
             <button className={`button ${this.state.filter === 'FY22 Budget Workshops' && 'active'}`} onClick={this.setFilter('FY22 Budget Workshops')}>FY22 Budget Workshops</button>
           </div>
