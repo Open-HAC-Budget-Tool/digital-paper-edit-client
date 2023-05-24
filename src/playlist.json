@@ -1,5 +1,25 @@
 [
   {
+    "title": "2023-05-23 Council Meeting: Public Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-05-23-Council_Meeting_Public_Session",
+    "id": "6zpnkeujvf-5963-45da-a271-adbc982abf97",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-23-Council_Meeting_Public_Session.mp4",
+    "clipName": "houstontx-2023-05-23-Council_Meeting_Public_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-23-Council_Meeting_Public_Session.mp4"
+  },
+  {
+    "title": "2023-05-23 FY2024 Budget Workshop -- Airport, Neighborhoods, Parks & Rec, Planning & Development",
+    "collection": "2023 Budget Workshops for FY2024",
+    "slug": "2023-05-23-FY_2024_Budget_Workshops",
+    "id": "6zpn69hehr-0bb1-45ee-a3c2-b5a176c4ce81",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-23-FY_2024_Budget_Workshops.mp4",
+    "clipName": "houstontx-2023-05-23-FY_2024_Budget_Workshops.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-23-FY_2024_Budget_Workshops.mp4"
+  },
+  {
     "title": "2023-05-22 FY2024 Budget Workshop -- Part 2 -- HR, Fleet, Admin & Regulatory Affairs",
     "collection": "2023 Budget Workshops for FY2024",
     "slug": "2023-05-22-FY_2024_Budget_Workshops_02",
