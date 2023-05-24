@@ -1,8 +1,20 @@
 [
   {
+    "title": "2023-05-24 Council Meeting: Agenda Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-05-24-Council_Meeting_Agenda_Session",
+    "agenda": "https://houston.novusagenda.com/agendapublic/MeetingView.aspx?MeetingID=596&MinutesMeetingID=-1&doctype=Agenda",
+    "id": "6z207kg85h-3a0a-4ad3-b54e-198b01925380",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-24-Council_Meeting_Agenda_Session.mp4",
+    "clipName": "houstontx-2023-05-24-Council_Meeting_Agenda_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-24-Council_Meeting_Agenda_Session.mp4"
+  },
+  {
     "title": "2023-05-23 Council Meeting: Public Session",
     "collection": "2023 City Council Meetings",
     "slug": "2023-05-23-Council_Meeting_Public_Session",
+    "agenda": "https://houston.novusagenda.com/agendapublic/MeetingView.aspx?MeetingID=596&MinutesMeetingID=-1&doctype=Agenda",
     "id": "6zpnkeujvf-5963-45da-a271-adbc982abf97",
     "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-23-Council_Meeting_Public_Session.mp4",
     "clipName": "houstontx-2023-05-23-Council_Meeting_Public_Session.mp4",
