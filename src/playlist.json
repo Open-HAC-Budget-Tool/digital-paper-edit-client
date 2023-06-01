@@ -1,5 +1,45 @@
 [
   {
+    "title": "2023-05-31 Council Meeting: Agenda Session, with Budget Public Comments",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-05-31-Consolidated_Session_Meeting",
+    "id": "6snyu8zhd4-916b-4afe-a3a4-d0e5a7288466",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-31-Consolidated_Session_Meeting.mp4",
+    "clipName": "houstontx-2023-05-31-Consolidated_Session_Meeting.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-05-31-Consolidated_Session_Meeting.mp4"
+  },
+  {
+    "title": "2022-06-01 Council Meeting: Agenda Session, with Budget Public Comments",
+    "collection": "2022 City Council Meetings",
+    "slug": "2022-06-01-Consolidated_Session_Meeting",
+    "id": "6snyutr1pw-95a6-4fdf-b8d0-48bf9a0da16d",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-06-01-Consolidated_Session_Meeting.mp4",
+    "clipName": "houstontx-2022-06-01-Consolidated_Session_Meeting.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2022-06-01-Consolidated_Session_Meeting.mp4"
+  },
+  {
+      "title": "2021-06-03 Council Meeting: Budget Public Comments",
+      "collection": "2021 City Council Meetings",
+      "slug": "06032021-522.360",
+      "id": "6snyuigo11-cde2-4e1c-bb87-bea2af0edc2d",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/06032021-522.360.mp4",
+      "clipName": "06032021-522.360.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/06032021-522.360.mp4"
+  },
+  {
+      "title": "2020-06-09 Council Meeting: Budget Public Comments",
+      "collection": "2020 City Council Meetings",
+      "slug": "06092020-2169.360",
+      "id": "6snyulbzdf-f4d5-4fc5-87e1-b692cabd5e20",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/06092020-2169.360.mp4",
+      "clipName": "06092020-2169.360.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/06092020-2169.360.mp4"
+  },
+  {
     "title": "2023-05-25 FY2024 Budget Workshops -- Finance Trends, Controller's Office, Mayor's Office, Fire Department",
     "collection": "2023 Budget Workshops for FY2024",
     "slug": "2023-05-25-FY_2024_Budget_Workshops",
