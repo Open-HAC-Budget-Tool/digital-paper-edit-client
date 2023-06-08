@@ -1,5 +1,25 @@
 [
   {
+    "title": "2023-06-06 Council Meeting: Public Session, with Budget Public Comments",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-06-06-Council_Meeting_Public_Session",
+    "id": "64mwgwf6hi-67b3-47b7-87c1-f990f6ed0086",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-06-Council_Meeting_Public_Session.mp4",
+    "clipName": "houstontx-2023-06-06-Council_Meeting_Public_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-06-Council_Meeting_Public_Session.mp4"
+  },
+  {
+    "title": "2023-06-07 Council Meeting: Agenda Session, with Budget Public Comments",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-06-07-Council_Meeting_Agenda_Session",
+    "id": "64mwg5c5z2-4a63-4ca4-9f8c-6ecfceded413",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-07-Council_Meeting_Agenda_Session.mp4",
+    "clipName": "houstontx-2023-06-07-Council_Meeting_Agenda_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-07-Council_Meeting_Agenda_Session.mp4"
+  },
+  {
     "title": "2023-05-31 Council Meeting: Agenda Session, with Budget Public Comments",
     "collection": "2023 City Council Meetings",
     "slug": "2023-05-31-Consolidated_Session_Meeting",
