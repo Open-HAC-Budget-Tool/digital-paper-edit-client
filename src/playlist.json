@@ -1,5 +1,65 @@
 [
   {
+    "title": "2023-06-28 Council Meeting: Agenda Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-06-28-Council_Meeting_Agenda_Session",
+    "id": "6bn4jwv1i7-9dab-4fbd-b963-9e90b3453fe7",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-28-Council_Meeting_Agenda_Session.mp4",
+    "clipName": "houstontx-2023-06-28-Council_Meeting_Agenda_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-28-Council_Meeting_Agenda_Session.mp4"
+  },
+  {
+    "title": "2023-06-27 Council Meeting: Public Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-06-27-Council_Meeting_Public_Session",
+    "id": "6bn4jvidnx-812d-4214-818d-0fb2c67e95b2",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-27-Council_Meeting_Public_Session.mp4",
+    "clipName": "houstontx-2023-06-27-Council_Meeting_Public_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-27-Council_Meeting_Public_Session.mp4"
+  },
+  {
+    "title": "2023-06-21 Council Meeting: Consolidated Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-06-21-Council_Meeting_Consolidated_Session",
+    "id": "6bn4japj2y-aed0-4361-a146-3ff705447b58",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-21-Council_Meeting_Consolidated_Session.mp4",
+    "clipName": "houstontx-2023-06-21-Council_Meeting_Consolidated_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-21-Council_Meeting_Consolidated_Session.mp4"
+  },
+  {
+    "title": "2023-06-13 Council Meeting: Public Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-06-13-Council_Meeting_Public_Session",
+    "id": "6bn4jhyim4-c38e-421f-97f7-1c968ace97ce",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-13-Council_Meeting_Public_Session.mp4",
+    "clipName": "houstontx-2023-06-13-Council_Meeting_Public_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-13-Council_Meeting_Public_Session.mp4"
+  },
+  {
+    "title": "2023-06-14 Council Meeting: Agenda Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-06-14-Council_Meeting_Agenda_Session",
+    "id": "6bn4jpb6ss-3817-40a9-9529-e92dae7d02c7",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-14-Council_Meeting_Agenda_Session.mp4",
+    "clipName": "houstontx-2023-06-14-Council_Meeting_Agenda_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-14-Council_Meeting_Agenda_Session.mp4"
+  },
+  {
+    "title": "2023-06-12 BFA: CIP Budget Presentation",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-06-12-BFA-CIP-Budget-Presentation",
+    "id": "6bn4j34nx1-80c5-47fe-9c5d-591f949487d4",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-12-BFA-CIP-Budget-Presentation.mp4",
+    "clipName": "houstontx-2023-06-12-BFA-CIP-Budget-Presentation.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-06-12-BFA-CIP-Budget-Presentation.mp4"
+  },
+  {
     "title": "2023-06-06 Council Meeting: Public Session, with Budget Public Comments",
     "collection": "2023 City Council Meetings",
     "slug": "2023-06-06-Council_Meeting_Public_Session",
