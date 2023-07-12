@@ -1,5 +1,35 @@
 [
   {
+    "title": "2023-07-12 Council Meeting: Agenda Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-07-12-Council_Meeting_Agenda_Session",
+    "id": "60i1mxkp5s-86b8-4172-860d-92dfaf2a4666",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-07-12-Council_Meeting_Agenda_Session.mp4",
+    "clipName": "houstontx-2023-07-12-Council_Meeting_Agenda_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-07-12-Council_Meeting_Agenda_Session.mp4"
+  },
+  {
+      "title": "2023-07-11 Council Meeting: Public Session",
+      "collection": "2023 City Council Meetings",
+      "slug": "2023-07-11-Council_Meeting_Public_Session",
+      "id": "60i1m4v9ou-c893-488e-a6be-039ce397b947",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-07-11-Council_Meeting_Public_Session.mp4",
+      "clipName": "houstontx-2023-07-11-Council_Meeting_Public_Session.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-07-11-Council_Meeting_Public_Session.mp4"
+  },
+  {
+    "title": "2023-07-11 BFA",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-07-11-BFA",
+    "id": "60i1mzgfe3-c696-4483-a7dc-8f5a4350ed50",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-07-11-BFA.mp4",
+    "clipName": "houstontx-2023-07-11-BFA.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-07-11-BFA.mp4"
+  },
+  {
     "title": "2023-06-28 Council Meeting: Agenda Session",
     "collection": "2023 City Council Meetings",
     "slug": "2023-06-28-Council_Meeting_Agenda_Session",
