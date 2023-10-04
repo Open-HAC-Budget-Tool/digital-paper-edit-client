@@ -1,5 +1,35 @@
 [
   {
+    "title": "2023-10-04 Council Meeting: Agenda Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-10-04-Council_Meeting_Agenda_Session",
+    "id": "6d0yqeitj5-5778-46f4-8f52-28577754d252",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-10-04-Council_Meeting_Agenda_Session.mp4",
+    "clipName": "houstontx-2023-10-04-Council_Meeting_Agenda_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-10-04-Council_Meeting_Agenda_Session.mp4"
+  },
+  {
+      "title": "2023-10-03 Council Meeting: Public Session",
+      "collection": "2023 City Council Meetings",
+      "slug": "2023-10-03-Council_Meeting_Public_Session",
+      "id": "6d0yifwur3-c9b7-4671-8cc3-098ebe48335e",
+      "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-10-03-Council_Meeting_Public_Session.mp4",
+      "clipName": "houstontx-2023-10-03-Council_Meeting_Public_Session.mp4",
+      "sttEngine": "AssemblyAI",
+      "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-10-03-Council_Meeting_Public_Session.mp4"
+  },
+  {
+    "title": "2023-10-03: BFA",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-10-03-BFA",
+    "id": "6d0yq6tgrw-4e3f-4121-a54f-9daf8aea8e2c",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-10-03-BFA.mp4",
+    "clipName": "houstontx-2023-10-03-BFA.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-10-03-BFA.mp4"
+  },
+  {
     "title": "2023-09-27 Council Meeting: Agenda Session",
     "collection": "2023 City Council Meetings",
     "slug": "2023-09-27-Council_Meeting_Agenda_Session",
