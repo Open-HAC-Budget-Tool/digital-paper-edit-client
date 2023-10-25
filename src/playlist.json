@@ -1,5 +1,25 @@
 [
   {
+    "title": "2023-10-25 Council Meeting: Agenda Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-10-25-Council_Meeting_Agenda_Session",
+    "id": "6aqdk0vwnw-a225-4cda-9339-58d78da3189b",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-10-25-Council_Meeting_Agenda_Session.mp4",
+    "clipName": "houstontx-2023-10-25-Council_Meeting_Agenda_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-10-25-Council_Meeting_Agenda_Session.mp4"
+  },
+  {
+    "title": "2023-10-24 Council Meeting: Public Session",
+    "collection": "2023 City Council Meetings",
+    "slug": "2023-10-24-Council_Meeting_Public_Session",
+    "id": "6aqdkbieqc-3a07-4d5e-8949-f70d839c301f",
+    "videoUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-10-24-Council_Meeting_Public_Session.mp4",
+    "clipName": "houstontx-2023-10-24-Council_Meeting_Public_Session.mp4",
+    "sttEngine": "AssemblyAI",
+    "audioUrl": "https://councilwatch.s3.amazonaws.com/houstontx-2023-10-24-Council_Meeting_Public_Session.mp4"
+  },
+  {
     "title": "2023-10-18 Council Meeting: Agenda Session",
     "collection": "2023 City Council Meetings",
     "slug": "2023-10-18-Council_Meeting_Agenda_Session",
